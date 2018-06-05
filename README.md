@@ -34,5 +34,8 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 
 ## TODO
 
-- Go through [this](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh) and reuse useful binaries
-- Think about how I can utilize [Hammerspoon](https://www.hammerspoon.org/)
+- Checkout and see how I can maybe utilize…
+  - [Hammerspoon](https://www.hammerspoon.org/)
+  - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
+  - [Sourcetree](https://www.sourcetreeapp.com/)
+  - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
