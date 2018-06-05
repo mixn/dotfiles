@@ -38,5 +38,4 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
   - [Hammerspoon](https://www.hammerspoon.org/)
   - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
   - [Sourcetree](https://www.sourcetreeapp.com/)
-  - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
   - [Mackup](https://github.com/lra/mackup)
