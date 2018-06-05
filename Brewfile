@@ -10,6 +10,7 @@ tap 'homebrew/core'
 # Binaries
 brew 'coreutils'
 brew 'dark-mode'
+brew 'dockutil'
 brew 'fasd'
 brew 'ffmpeg'
 brew 'git'
