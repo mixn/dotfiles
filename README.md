@@ -29,7 +29,7 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - JS: [node](https://nodejs.org/en/), [yarn](https://yarnpkg.com/lang/en/), [npm](https://yarnpkg.com/lang/en/), [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), 
 - Helpers: [tldr](https://github.com/tldr-pages/tldr), [tig](https://jonas.github.io/tig/), [fasd](https://github.com/clvv/fasd), [spot](https://github.com/rauchg/spot), [tree](http://mama.indstate.edu/users/ice/tree/), [gtop](https://github.com/aksakalli/gtop), [httpie](https://httpie.org/), [peco](https://peco.github.io/)
 - Graphics: [svgo](https://github.com/svg/svgo), [imagemagick](https://www.imagemagick.org/script/index.php), [ffmpeg](https://www.ffmpeg.org/)
-- macOS: [Mackup](https://github.com/lra/mackup), [dockutil](https://github.com/kcrawford/dockutil), [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
+- macOS: [dockutil](https://github.com/kcrawford/dockutil), [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [macOS apps](./Brewfile)
 
 ## TODO
@@ -39,3 +39,4 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
   - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
   - [Sourcetree](https://www.sourcetreeapp.com/)
   - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
+  - [Mackup](https://github.com/lra/mackup)
