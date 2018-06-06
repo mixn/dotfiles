@@ -652,6 +652,13 @@ defaults write com.operasoftware.Opera PMPrintingExpandedStateForPrint2 -boolean
 defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2 -boolean true
 
 ###############################################################################
+# Spectacle.app                                                               #
+###############################################################################
+
+# Set up my preferred keyboard shortcuts
+cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
