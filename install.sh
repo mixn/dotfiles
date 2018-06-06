@@ -27,6 +27,11 @@ npm i -g now yarn gtop spot n pure-prompt
 # Install some globals via curl/wget
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
-# Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
+# Remove .zshrc from $HOME (if it exists) and symlink the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+
+# Remove .hyper.js from $HOME (if it exists) and copy the .hyper.js file from the .dotfiles,
+# because as of this writing, the .hyper.js config can’t be symlinked ¯\_(ツ)_/¯
+rm -rf $HOME/.hyper.js
+cp $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
