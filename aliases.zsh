@@ -20,6 +20,7 @@ alias dt="~/Desktop"
 alias dl="~/Downloads"
 alias p="~/Projects"
 alias dof="~/.dotfiles"
+alias omz="~/.oh-my-zsh"
 
 ###############################################################################
 # Configs                                                                     #
@@ -56,7 +57,7 @@ alias c="clear"
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 
 # Re-source .zshrc after changes
-alias reloadcli="source $HOME/.zshrc"
+alias rlcli="source $HOME/.zshrc"
 
 # Reload dns
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
