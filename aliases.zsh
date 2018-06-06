@@ -21,6 +21,7 @@ alias dl="~/Downloads"
 alias p="~/Projects"
 alias dof="~/.dotfiles"
 alias omz="~/.oh-my-zsh"
+alias bin="/usr/local/bin"
 
 ###############################################################################
 # Configs                                                                     #
