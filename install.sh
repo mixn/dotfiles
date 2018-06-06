@@ -35,3 +35,7 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # because as of this writing, the .hyper.js config can’t be symlinked ¯\_(ツ)_/¯
 rm -rf $HOME/.hyper.js
 cp $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
+
+# Set macOS preferences
+# Run last because this will reload the shell
+source .macos
