@@ -647,6 +647,32 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 defaults write com.operasoftware.Opera PMPrintingExpandedStateForPrint2 -boolean true
 defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2 -boolean true
 
+###############################################################################
+# Kill affected applications                                                  #
+###############################################################################
+
+for app in "Activity Monitor" \
+	"Address Book" \
+	"Calendar" \
+	"cfprefsd" \
+	"Contacts" \
+	"Dock" \
+	"Finder" \
+	"Google Chrome Canary" \
+	"Google Chrome" \
+	"Mail" \
+	"Messages" \
+	"Opera" \
+	"Photos" \
+	"Safari" \
+	"Spectacle" \
+	"SystemUIServer" \
+	"Terminal" \
+	"iCal"; do
+	killall "${app}" &> /dev/null
+done
+echo "Done. Note that some of these changes require a logout/restart to take effect."
+
 
 
 ###############################################################################
