@@ -32,8 +32,13 @@ mv composer.phar /usr/local/bin/composer
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Remove aliases.sh from $HOME (if it exists) and symlink the aliases.sh file from the .dotfiles
+rm -rf $HOME/.oh-my-zsh/lib/aliases.zsh
+ln -s $HOME/.dotfiles/aliases.zsh $HOME/.oh-my-zsh/lib/aliases.zsh
+
 # Remove .hyper.js from $HOME (if it exists) and copy the .hyper.js file from the .dotfiles,
 # because as of this writing, the .hyper.js config can’t be symlinked ¯\_(ツ)_/¯
+# Quite annoying, but… oh well
 rm -rf $HOME/.hyper.js
 cp $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
 
