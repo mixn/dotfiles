@@ -32,6 +32,10 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
+###############################################################################
+# Symlinks                                                                    #
+###############################################################################
+
 # Remove .zshrc from $HOME (if it exists) and symlink the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
