@@ -1,6 +1,6 @@
 # mixn’s Dotfiles
 
-## Inspiration
+## Inspiration ❤️🌎
 
 This repo is mostly inspired and heavily influenced by
 
@@ -21,7 +21,9 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/)
 - [Github does Dotfiles](https://dotfiles.github.io/)
 
-## Essentials
+A big **thank you** to the community and all aforementioned people — you all rock! 👨‍🎤
+
+## Essentials 👩‍💻☕️
 
 - [Homebrew](https://brew.sh/), [Homebrew Cask](https://caskroom.github.io/)
 - [Zsh](https://www.zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [Pure](https://github.com/sindresorhus/pure)
@@ -32,7 +34,7 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - macOS: [dockutil](https://github.com/kcrawford/dockutil), [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [macOS apps](./Brewfile)
 
-## TODO
+## “To-do” 🗒✍️
 
 - Check out and see how I can maybe utilize…
   - [Hammerspoon](https://www.hammerspoon.org/)
