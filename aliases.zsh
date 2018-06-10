@@ -57,6 +57,9 @@ alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Ch
 
 alias c="clear"
 
+# Faster battery-status
+alias bs="battery-status"
+
 # Copy ssh key
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 
