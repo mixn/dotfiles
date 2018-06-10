@@ -27,8 +27,8 @@ alias bin="/usr/local/bin"
 # Configs                                                                     #
 ###############################################################################
 
-alias zshrc="code ~/.zshrc"
-alias hyperjs="code ~/.hyper.js"
+alias zshrc="code ~/.dotfiles/.zshrc"
+alias hyperjs="code ~/.dotfiles/.hyper.js"
 
 ###############################################################################
 # Git                                                                         #
