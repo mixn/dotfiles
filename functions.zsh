@@ -80,3 +80,8 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Find and fetch weather for any given location, defaulting to Munich, Germany
+function wttr() {
+	curl -4 wttr.in/${1:-munich}
+}

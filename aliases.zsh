@@ -70,9 +70,6 @@ alias rlcli="source $HOME/.zshrc"
 # Reload dns
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
-# Fetch and display weather
-alias weather="curl -4 http://wttr.in/Munich"
-
 # List all files colorized in long format
 alias l="ls -lF ${colorflag}"
 # List only directories
