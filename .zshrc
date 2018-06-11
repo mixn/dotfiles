@@ -36,3 +36,4 @@ prompt pure
 . ~/.dotfiles/nvm.zsh
 . ~/.dotfiles/exports.zsh
 . ~/.dotfiles/serverless.zsh
+. ~/.dotfiles/thefuck.zsh
