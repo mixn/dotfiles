@@ -73,12 +73,12 @@ function o() {
 	fi;
 }
 
-# `tre` is a shorthand for `tree` with hidden files and color enabled, ignoring
-# the `.git` directory, listing directories first. The output gets piped into
-# `less` with options to preserve color and line numbers, unless the output is
-# small enough for one screen.
+# `tre` is a shorthand for `tree`, embracing the power of exa (via `exa -T`),
+# while showing hidden files and ignoring some directories
+#
+# The depth of recursion can be set via a parameter, e.g. `tre 2`, `tre 4`, etc.
 function tre() {
-	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
+	exa -T -a -L=${1:-1} -I='node_modules|bower_components|.git'
 }
 
 # Find and fetch weather for any given location, defaulting to Munich, Germany

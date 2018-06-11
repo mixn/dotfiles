@@ -72,13 +72,11 @@ alias rlcli="source $HOME/.zshrc"
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
 # List all files colorized in long format
-alias l="ls -lF ${colorflag}"
+alias l="exa -l"
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
 # List only hidden files
 alias lsh="ls -ld .?*"
-# Always use color output for `ls`
-alias ls="command ls ${colorflag}"
 
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
