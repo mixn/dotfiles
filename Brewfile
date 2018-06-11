@@ -24,6 +24,7 @@ brew 'thefuck'
 brew 'tig'
 brew 'trash'
 brew 'tree'
+brew 'youtube-dl'
 brew 'zsh-completions'
 brew 'zsh'
 
