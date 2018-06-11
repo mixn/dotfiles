@@ -22,7 +22,7 @@ alias p="~/Projects"
 alias dof="~/.dotfiles"
 alias omz="~/.oh-my-zsh"
 alias bin="/usr/local/bin"
-alias svl="serverless"
+alias svl="sls" # I prefer this over `sls`
 
 ###############################################################################
 # Configs                                                                     #
