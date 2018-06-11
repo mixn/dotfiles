@@ -27,7 +27,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 
 - [Homebrew](https://brew.sh/), [Homebrew Cask](https://caskroom.github.io/)
 - [Zsh](https://www.zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [Pure](https://github.com/sindresorhus/pure)
-- [Hyper](https://hyper.is/), [Ayu](https://github.com/ayu-theme)
+- [Hyper](https://hyper.is/), [Hyper Plugins](./.hyper.js), [Ayu](https://github.com/ayu-theme)
 - JS: [node](https://nodejs.org/en/), [yarn](https://yarnpkg.com/lang/en/), [npm](https://yarnpkg.com/lang/en/), [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), 
 - Helpers: [tldr](https://github.com/tldr-pages/tldr), [tig](https://jonas.github.io/tig/), [fasd](https://github.com/clvv/fasd), [spot](https://github.com/rauchg/spot), [tree](http://mama.indstate.edu/users/ice/tree/), [gtop](https://github.com/aksakalli/gtop), [httpie](https://httpie.org/), [peco](https://peco.github.io/), [wttr](http://wttr.in/), [thefuck](https://github.com/nvbn/thefuck), [ripgrep](https://github.com/BurntSushi/ripgrep), [exa](https://github.com/ogham/exa)
 - Graphics: [svgo](https://github.com/svg/svgo), [imagemagick](https://www.imagemagick.org/script/index.php), [ffmpeg](https://www.ffmpeg.org/)
