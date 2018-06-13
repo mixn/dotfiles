@@ -75,7 +75,7 @@ cask 'vlc'
 # Sketch, https://goo.gl/2ziRQX
 # Space Drop, https://goo.gl/RNAKtU
 # Super Hexagon, https://goo.gl/hyfTRc
-# Typinator, https://goo.gl/TVTm
+# PhraseExpress, https://goo.gl/LwPtdT
 
 # Quicklook
 cask 'qlcolorcode'
