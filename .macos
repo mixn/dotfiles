@@ -103,6 +103,9 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Speed up opening of folder when drag and dropping stuff into it
 defaults write -g com.apple.springing.delay -float 0.0
 
+# Show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent true
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
