@@ -1,5 +1,7 @@
 # mixn’s Dotfiles
 
+![mixn‘s shell](https://i.imgur.com/zoTt3gb.png)
+
 ## Inspiration ❤️🌎
 
 This repo is mostly inspired and heavily influenced by
