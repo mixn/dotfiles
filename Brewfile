@@ -9,6 +9,7 @@ tap 'homebrew/core'
 
 # Binaries
 brew 'bat'
+brew 'cloc'
 brew 'coreutils'
 brew 'dark-mode'
 brew 'dockutil'
