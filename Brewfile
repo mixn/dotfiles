@@ -41,7 +41,6 @@ brew 'php'
 # Apps
 cask 'alfred'
 cask 'astro'
-cask 'avast-secureline-vpn'
 cask 'avast-security'
 cask 'bartender'
 cask 'brave'
@@ -105,4 +104,5 @@ mas 'Numbers', id: 409203825
 mas 'Pocket', id: 568494494
 mas 'Slack', id: 803453959
 mas 'Things3', id: 904280696
+mas 'VPN Unlimited', id: 727593140
 mas 'WhatsApp', id: 1147396723
