@@ -1,6 +1,6 @@
 # mixn’s Dotfiles
 
-![mixn’s shell](https://i.imgur.com/zoTt3gb.png)
+![mixn’s shell](https://i.imgur.com/h0izLUW.png)
 
 ## Inspiration ❤️🌎
 
