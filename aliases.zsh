@@ -72,6 +72,10 @@ alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 # Re-source .zshrc after changes
 alias rlcli="source $HOME/.zshrc"
 
+# Grossly kill all tmux processes simultaneously
+# https://askubuntu.com/a/868194
+alias tmuxkill="pkill -f tmux"
+
 # Reload dns
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
