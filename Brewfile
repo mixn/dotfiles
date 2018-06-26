@@ -33,6 +33,7 @@ brew 'tree'
 brew 'youtube-dl'
 brew 'zsh-completions'
 brew 'zsh'
+brew 'fzf'
 
 # Dev
 brew 'mysql'
