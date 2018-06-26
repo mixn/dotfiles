@@ -40,6 +40,14 @@ mv composer.phar /usr/local/bin/composer
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
+# Remove .tmux.conf from $HOME (if it exists) and symlink the .tmux.conf file from the .dotfiles
+rm -rf $HOME/.tmux.conf
+ln -s $HOME/.dotfiles/.tmux.conf $HOME/.tmux.conf
+
+# Remove .tmux.conf.local from $HOME (if it exists) and symlink the .tmux.conf.local file from the .dotfiles
+rm -rf $HOME/.tmux.conf.local
+ln -s $HOME/.dotfiles/.tmux.conf.local $HOME/.tmux.conf.local
+
 # Remove aliases.sh from $HOME (if it exists) and symlink the aliases.sh file from the .dotfiles
 rm -rf $HOME/.oh-my-zsh/lib/aliases.zsh
 ln -s $HOME/.dotfiles/aliases.zsh $HOME/.oh-my-zsh/lib/aliases.zsh
