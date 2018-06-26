@@ -73,8 +73,9 @@ alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 alias rlcli="source $HOME/.zshrc"
 
 # Grossly kill all tmux processes simultaneously
-# https://askubuntu.com/a/868194
-alias tmuxkill="pkill -f tmux"
+# https://askubuntu.com/a/868194 also killed VSCode ¯\_(ツ)_/¯,
+# so https://askubuntu.com/a/1014428 below it is
+alias tmuxkill="tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' | xargs -n 1 tmux kill-session -t"
 
 # Reload dns
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
