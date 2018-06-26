@@ -63,8 +63,8 @@ alias c="clear"
 # Faster battery-status
 alias bs="battery-status"
 
-# Whenever I forget one of many zsh aliases
-alias alp="alias | peco"
+# Whenever I forget one of many zsh aliases (, I wonder what “alz” stands for… 🤔)
+alias alz="alias | fzf"
 
 # Copy ssh key
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
