@@ -38,14 +38,6 @@ A big **thank you** to the community and all aforementioned people — you all r
 - macOS: [dockutil](https://github.com/kcrawford/dockutil), [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [macOS apps](./Brewfile)
 
-## “To-do” 🗒✍️
-
-- Check out and see how I can maybe utilize…
-  - [Hammerspoon](https://www.hammerspoon.org/)
-  - [https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh](https://github.com/mathiasbynens/dotfiles/blob/master/brew.sh)
-  - [Sourcetree](https://www.sourcetreeapp.com/)
-  - [Mackup](https://github.com/lra/mackup)
-
 ## Author 🙂👋
 
 | [![twitter/mixn](https://s.gravatar.com/avatar/25f6ced5bed9c19f2174e68798fb8f66?s=80)](http://twitter.com/mixn "Follow @mixn on Twitter") |
