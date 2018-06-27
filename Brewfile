@@ -8,6 +8,7 @@ tap 'homebrew/cask'
 tap 'homebrew/core'
 
 # Binaries
+brew 'antigen'
 brew 'bat'
 brew 'coreutils'
 brew 'dark-mode'
