@@ -22,7 +22,7 @@ brew bundle
 chsh -s $(which zsh)
 
 # Install global NPM packages
-npm i -g now yarn gtop spot n pure-prompt serverless @vue/cli ember-cli nba-go git-open
+npm i -g now yarn gtop spot n pure-prompt serverless @vue/cli ember-cli nba-go git-open speed-test
 
 # Install some globals via curl/wget
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
