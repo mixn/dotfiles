@@ -74,6 +74,9 @@ alias alz="alias | fzf"
 # Copy ssh key
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 
+# Copy wifi password
+alias copywifipw="wifi-password | pbcopy"
+
 # Re-source .zshrc after changes
 alias rlcli="source $HOME/.zshrc"
 
