@@ -7,14 +7,11 @@ export ZSH=/Users/mixn/.oh-my-zsh
 # Load Antigen
 . ~/.dotfiles/antigen.zsh
 
-# Disable themes since I’m using zsh Pure prompt at the bottom
+# Disable themes since I’m using zsh Pure prompt below
 ZSH_THEME=""
 
 # Case sensitive matches only
 CASE_SENSITIVE="true"
-
-# Enable and reload zsh-completions
-autoload -U compinit && compinit
 
 # Reload
 source $ZSH/oh-my-zsh.sh
