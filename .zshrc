@@ -4,6 +4,9 @@
 
 export ZSH=/Users/mixn/.oh-my-zsh
 
+# Boot Antigen
+. ~/.dotfiles/antigen.zsh
+
 # Disable themes since I’m using zsh Pure prompt at the bottom
 ZSH_THEME=""
 
