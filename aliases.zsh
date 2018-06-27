@@ -37,11 +37,16 @@ alias hyperjs="code ~/.dotfiles/.hyper.js"
 # Git                                                                         #
 ###############################################################################
 
-# *Many* helpers come via oh-mzy-zsh + git plugin
+# *Many* other helpers I use day in, day out come via oh-mzy-zsh + git plugin
+
+# Short version is enough in 99% of the cases
 alias gs="gss"
 
 # Add all and commit
 alias gac="ga . && gcmsg"
+
+# Faster git-open
+alias go="git-open"
 
 ###############################################################################
 # Apps                                                                        #
