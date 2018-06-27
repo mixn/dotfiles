@@ -30,7 +30,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 ## Essentials 👩‍💻☕️
 
 - [Homebrew](https://brew.sh/), [Homebrew Cask](https://caskroom.github.io/)
-- [Zsh](https://www.zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [Pure](https://github.com/sindresorhus/pure), [tmux](https://github.com/tmux/tmux)
+- [Zsh](https://www.zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [Antigen](https://github.com/zsh-users/antigen), [Pure](https://github.com/sindresorhus/pure), [tmux](https://github.com/tmux/tmux)
 - [Hyper](https://hyper.is/), [Hyper Plugins](./.hyper.js), [Ayu](https://github.com/ayu-theme)
 - JS: [node](https://nodejs.org/en/), [yarn](https://yarnpkg.com/lang/en/), [npm](https://yarnpkg.com/lang/en/), [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), 
 - Helpers: [tldr](https://github.com/tldr-pages/tldr), [tig](https://jonas.github.io/tig/), [fasd](https://github.com/clvv/fasd), [spot](https://github.com/rauchg/spot), [tree](http://mama.indstate.edu/users/ice/tree/), [gtop](https://github.com/aksakalli/gtop), [httpie](https://httpie.org/), [peco](https://peco.github.io/), [wttr](http://wttr.in/), [thefuck](https://github.com/nvbn/thefuck), [ripgrep](https://github.com/BurntSushi/ripgrep), [exa](https://github.com/ogham/exa), [bat](https://github.com/sharkdp/bat), [tokei](https://github.com/Aaronepower/tokei), [fzf](https://github.com/junegunn/fzf), [wifi-password](https://github.com/rauchg/wifi-password), [fkill-cli](https://github.com/sindresorhus/fkill-cli), [is-up-cli](https://github.com/sindresorhus/is-up-cli)
