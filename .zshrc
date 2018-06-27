@@ -4,7 +4,7 @@
 
 export ZSH=/Users/mixn/.oh-my-zsh
 
-# Boot Antigen
+# Load Antigen
 . ~/.dotfiles/antigen.zsh
 
 # Disable themes since I’m using zsh Pure prompt at the bottom
@@ -12,14 +12,6 @@ ZSH_THEME=""
 
 # Case sensitive matches only
 CASE_SENSITIVE="true"
-
-# Installed plugins
-plugins=(
-  git
-  npm
-  git-extras
-	zsh-completions
-)
 
 # Enable and reload zsh-completions
 autoload -U compinit && compinit
