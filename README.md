@@ -11,6 +11,7 @@ This repo is mostly inspired and heavily influenced by
 - Dries Vints’ [dotfiles](https://github.com/driesvints/dotfiles)
 - Lars Kappert’s [dotfiles](https://github.com/webpro/dotfiles)
 - Carlos Alexandro Becker’s [dotfiles](https://github.com/caarlos0/dotfiles)
+- Paul Irish’s [dotfiles](https://github.com/paulirish/dotfiles)
 
 Not a fork of any since I wanted to build from scratch and really **only** include what I need, while improving my understanding of how things work along the way.
 
