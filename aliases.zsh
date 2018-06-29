@@ -45,6 +45,9 @@ alias gs="gss"
 # Add all and commit
 alias gac="ga . && gcmsg"
 
+# Add all and commit via gitmoji
+alias gagc="ga . && gitmoji -c"
+
 # Faster git-open
 alias go="git-open"
 
