@@ -83,10 +83,10 @@ alias copywifipw="wifi-password | pbcopy"
 # Re-source .zshrc after changes
 alias rlcli="source $HOME/.zshrc"
 
-# Grossly kill all tmux processes simultaneously
-# https://askubuntu.com/a/868194 also killed VSCode ¯\_(ツ)_/¯,
-# so https://askubuntu.com/a/1014428 below it is
-alias tmuxkill="tmux list-sessions | awk 'BEGIN{FS=":"}{print $1}' | xargs -n 1 tmux kill-session -t"
+# Kill all tmux processes simultaneously, leveraging fkill-cli,
+# was previously using all solutions from https://goo.gl/Lqh51S 
+# but prefer this cause of no undesired side-effects
+alias tmuxkill="fkill tmux"
 
 # Reload dns
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
