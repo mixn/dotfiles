@@ -1,0 +1,23 @@
+#!/bin/sh
+
+###############################################################################
+# npm                                                                         #
+###############################################################################
+
+# Install global NPM packages
+npm i -g \
+@vue/cli \
+ember-cli \
+fkill-cli \
+git-open \
+gtop \
+is-up-cli \
+n \
+nba-go \
+now \
+pkg \
+pure-prompt \
+serverless \
+speed-test \
+spot \
+yarn

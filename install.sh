@@ -21,8 +21,7 @@ brew bundle
 # Make Zsh the default shell environment
 chsh -s $(which zsh)
 
-# Install global NPM packages
-npm i -g now yarn gtop spot n pure-prompt serverless @vue/cli ember-cli nba-go git-open speed-test fkill-cli is-up-cli pkg
+source .npm
 
 # Install some globals via curl/wget
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
