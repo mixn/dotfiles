@@ -10,6 +10,7 @@ npm i -g \
 ember-cli \
 fkill-cli \
 git-open \
+gitmoji-cli \
 gtop \
 is-up-cli \
 n \
