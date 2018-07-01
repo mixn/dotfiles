@@ -37,6 +37,7 @@ brew 'tree'
 brew 'wget'
 brew 'wifi-password'
 brew 'youtube-dl'
+brew 'z'
 brew 'zsh-completions'
 brew 'zsh'
 
