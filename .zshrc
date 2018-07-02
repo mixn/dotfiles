@@ -7,9 +7,6 @@ export ZSH=/Users/mixn/.oh-my-zsh
 # Load Antigen
 . ~/.dotfiles/antigen.zsh
 
-# Disable themes since I’m using zsh Pure prompt below
-ZSH_THEME=""
-
 # Case sensitive matches only
 CASE_SENSITIVE="true"
 
