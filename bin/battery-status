@@ -5,7 +5,8 @@
 ###############################################################################
 
 # A quick little indicator for battery status,
-# suitable for display in the prompt.
+# suitable for display in the prompt
+# Kudos https://github.com/holman/dotfiles/blob/master/bin/battery-status
 battstat=$(pmset -g batt)
 time_left=$(echo $battstat |
   tail -1 |
