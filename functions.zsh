@@ -3,17 +3,17 @@
 ###############################################################################
 
 # Create a new directory and enter it
-function mkd() {
+mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
 # Change working directory to the top-most Finder window location
-function cdf() { # short for `cdfinder`
+cdf() { # short for `cdfinder`
 	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
 }
 
 # Determine size of a file or total size of a directory
-function fs() {
+fs() {
 	if du -b /dev/null > /dev/null 2>&1; then
 		local arg=-sbh;
 	else
@@ -27,7 +27,7 @@ function fs() {
 }
 
 # Create a data URL from a file
-function dataurl() {
+dataurl() {
 	local mimeType=$(file -b --mime-type "$1");
 	if [[ $mimeType == text/* ]]; then
 		mimeType="${mimeType};charset=utf-8";
@@ -36,7 +36,7 @@ function dataurl() {
 }
 
 # Start an HTTP server from a directory, optionally specifying the port
-function server() {
+server() {
 	local port="${1:-8000}";
 	sleep 1 && open "http://localhost:${port}/" &
 	# Set the default Content-Type to `text/plain` instead of `application/octet-stream`
@@ -46,7 +46,7 @@ function server() {
 
 # Start a PHP server from a directory, optionally specifying the port
 # (Requires PHP 5.4.0+.)
-function phpserver() {
+phpserver() {
 	local port="${1:-4000}";
 	local ip=$(ipconfig getifaddr en1);
 	sleep 1 && open "http://${ip}:${port}/" &
@@ -55,7 +55,7 @@ function phpserver() {
 
 # `v` with no arguments opens the current directory in Vim, otherwise opens the
 # given location
-function v() {
+v() {
 	if [ $# -eq 0 ]; then
 		vim .;
 	else
@@ -65,7 +65,7 @@ function v() {
 
 # `o` with no arguments opens the current directory, otherwise opens the given
 # location
-function o() {
+o() {
 	if [ $# -eq 0 ]; then
 		open .;
 	else
@@ -77,17 +77,54 @@ function o() {
 # while showing hidden files and ignoring some directories
 #
 # The depth of recursion can be set via a parameter, e.g. `tre 2`, `tre 4`, etc.
-function tre() {
+tre() {
 	exa -T -a -L=${1:-1} -I='node_modules|bower_components|.git'
 }
 
 # Find and fetch weather for any given location, defaulting to Munich, Germany
-function wttr() {
+wttr() {
 	curl -4 wttr.in/${1:-munich}
 }
 
 # A quick approximation of self-written LOC in a directory across languages,
 # ignoring things like node_modules, .nuxt, package-lock.json, etc. by default
-function loc() {
+loc() {
 	tokei -e=package-lock.json --sort=lines | bat --style=plain # tokei ignores node_modules and hidden dirs by default
+}
+
+# Extract archives - use: extract <file>
+# Based on https://github.com/paulirish/dotfiles/blob/master/.functions#L101
+extract() {
+	if [ -f "$1" ] ; then
+		local filename=$(basename "$1")
+		local foldername="${filename%%.*}"
+		local fullpath=`perl -e 'use Cwd "abs_path";print abs_path(shift)' "$1"`
+		local didfolderexist=false
+		if [ -d "$foldername" ]; then
+			didfolderexist=true
+			read -p "$foldername already exists, do you want to overwrite it? (y/n) " -n 1
+			echo
+			if [[ $REPLY =~ ^[Nn]$ ]]; then
+				return
+			fi
+		fi
+		mkdir -p "$foldername" && cd "$foldername"
+		case $1 in
+			*.tar.bz2) tar xjf "$fullpath" ;;
+			*.tar.gz) tar xzf "$fullpath" ;;
+			*.tar.xz) tar Jxvf "$fullpath" ;;
+			*.tar.Z) tar xzf "$fullpath" ;;
+			*.tar) tar xf "$fullpath" ;;
+			*.taz) tar xzf "$fullpath" ;;
+			*.tb2) tar xjf "$fullpath" ;;
+			*.tbz) tar xjf "$fullpath" ;;
+			*.tbz2) tar xjf "$fullpath" ;;
+			*.tgz) tar xzf "$fullpath" ;;
+			*.txz) tar Jxvf "$fullpath" ;;
+			*.zip) unzip "$fullpath" ;;
+			*) echo "'$1' cannot be extracted via extract()" && cd .. && ! $didfolderexist && rm -r "$foldername" ;;
+		esac
+	else
+		echo "'$1' is not a valid file"
+	fi
 }
