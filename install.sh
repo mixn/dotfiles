@@ -51,6 +51,12 @@ ln -s $HOME/.dotfiles/.tmux.conf.local $HOME/.tmux.conf.local
 rm -rf $HOME/.oh-my-zsh/lib/aliases.zsh
 ln -s $HOME/.dotfiles/aliases.zsh $HOME/.oh-my-zsh/lib/aliases.zsh
 
+# Remove .vimrc from $HOME (if it exists) and symlink the aliases.sh file from the .dotfiles
+rm -rf $HOME/.vimrc
+ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
+# Create ~/.vim/backups, ~/.vim/swaps, ~/.vim/undo as used in .vimrc
+md $HOME/.vim/backups $HOME/.vim/swapsv $HOME/.vim/undo
+
 # Remove .hyper.js from $HOME (if it exists) and copy the .hyper.js file from the .dotfiles,
 # because as of this writing, the .hyper.js config can’t be symlinked ¯\_(ツ)_/¯
 # Quite annoying, but… oh well
