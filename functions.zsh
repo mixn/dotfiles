@@ -128,3 +128,8 @@ extract() {
 		echo "'$1' is not a valid file"
 	fi
 }
+
+# Delete all screenshots in ~/Desktop (safely, e.g. using `trash` instead of `rm`)
+deletescreenshots() {
+	find ~/Desktop -type f -name "Screen Shot*" -exec trash {} \;
+}
