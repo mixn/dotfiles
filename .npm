@@ -8,6 +8,7 @@
 npm i -g \
 @vue/cli \
 ember-cli \
+fast-cli \
 fkill-cli \
 git-open \
 gitmoji-cli \
