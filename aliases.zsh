@@ -55,7 +55,7 @@ alias go="git-open"
 alias gpo="gp && go"
 
 # Undo last commit
-alias gundo="grh HEAD~"
+alias gundo="git undo"
 
 ###############################################################################
 # Apps                                                                        #
