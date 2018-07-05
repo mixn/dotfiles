@@ -31,3 +31,9 @@ md $HOME/.vim/backups $HOME/.vim/swapsv $HOME/.vim/undo
 # Quite annoying, but… oh well
 rm -rf $HOME/.hyper.js
 cp $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
+
+rm -rf /usr/local/bin/battery-status
+ln -s $HOME/.dotfiles/bin/battery-status /usr/local/bin/battery-status
+
+rm -rf /usr/local/bin/battery-status
+ln -s $HOME/.dotfiles/bin/fix-camera /usr/local/bin/fix-camera
