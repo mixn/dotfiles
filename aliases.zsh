@@ -25,7 +25,7 @@ alias bin="/usr/local/bin"
 alias svl="sls" # I prefer this over `sls`
 alias ydl="youtube-dl"
 alias cat="bat"
-alias cns="carbon-now-sh"
+alias cns="carbon-now"
 alias t="date +%H:%M"
 
 ###############################################################################
