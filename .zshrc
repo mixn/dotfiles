@@ -11,7 +11,7 @@ export ZSH=/Users/mixn/.oh-my-zsh
 CASE_SENSITIVE="true"
 
 # Reload
-source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-sh.sh
 
 # Initialize Pure prompt
 autoload -U promptinit; promptinit
@@ -21,6 +21,7 @@ prompt pure
 # I prefer the explicitness here over a loop
 . ~/.dotfiles/aliases.zsh
 . ~/.dotfiles/exports.zsh
+. ~/.dotfiles/extra.zsh
 . ~/.dotfiles/functions.zsh
 . ~/.dotfiles/git.zsh
 . ~/.dotfiles/nvm.zsh
