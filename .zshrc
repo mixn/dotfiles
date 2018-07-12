@@ -11,7 +11,7 @@ export ZSH=/Users/mixn/.oh-my-zsh
 CASE_SENSITIVE="true"
 
 # Reload
-source $ZSH/oh-my-sh.sh
+source $ZSH/oh-my-zsh.sh
 
 # Initialize Pure prompt
 autoload -U promptinit; promptinit
