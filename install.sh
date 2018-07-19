@@ -35,6 +35,9 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | 
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
+# Install Rust
+curl https://sh.rustup.rs -sSf | sh
+
 ###############################################################################
 # Symlinks                                                                    #
 ###############################################################################
