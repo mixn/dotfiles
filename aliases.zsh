@@ -26,6 +26,7 @@ alias svl="sls" # I prefer this over `sls`
 alias ydl="youtube-dl"
 alias cat="bat"
 alias cns="carbon-now"
+alias cr="cargo run"
 alias t="date +%H:%M"
 
 ###############################################################################
