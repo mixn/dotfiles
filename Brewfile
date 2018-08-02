@@ -112,6 +112,7 @@ mas 'Keynote', id: 409183694
 mas 'LIMBO', id: 481629890
 mas 'Monosnap', id: 540348655
 mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
 mas 'Pocket', id: 568494494
 mas 'Slack', id: 803453959
 mas 'Things3', id: 904280696
