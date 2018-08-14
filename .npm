@@ -7,6 +7,7 @@
 # Install global NPM packages
 npm i -g \
 @vue/cli \
+carbon-now-cli@next \
 credits-cli \
 ember-cli \
 fast-cli \
