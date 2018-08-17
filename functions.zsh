@@ -133,3 +133,8 @@ extract() {
 deletescreenshots() {
 	find ~/Desktop -type f -name "Screen Shot*" -exec trash {} \;
 }
+
+# Clear clipboard contents
+clearclipboard() {
+	pbcopy < /dev/null
+}
