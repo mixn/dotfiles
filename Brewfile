@@ -116,6 +116,7 @@ mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Pocket', id: 568494494
 mas 'Slack', id: 803453959
+mas 'The Unarchiver', id: 425424353
 mas 'Things3', id: 904280696
 mas 'VPN Unlimited', id: 727593140
 mas 'WhatsApp', id: 1147396723
