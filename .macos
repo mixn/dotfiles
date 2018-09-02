@@ -109,6 +109,9 @@ defaults write com.apple.menuextra.battery ShowPercent true
 # Set a custom wallpaper image
 wallpaper ./init/wallpaper.jpg
 
+# Activate dark mode
+dark-mode on
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
