@@ -337,6 +337,9 @@ defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
 sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
+# Add and order used applications
+source ../dockutil/install.sh
+
 # Hot corners
 # Possible values:
 #  0: no-op
