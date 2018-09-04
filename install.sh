@@ -33,12 +33,6 @@ source .npm
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
-# Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Make Zsh the default shell environment
-chsh -s $(which zsh)
-
 # Install Composer
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
@@ -59,3 +53,13 @@ source .symlinks
 # Set macOS preferences
 # Run last because this will reload the shell
 source .macos
+
+###############################################################################
+# oh-my-zsh                                                                   #
+###############################################################################
+
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Make Zsh the default shell environment
+chsh -s $(which zsh)
