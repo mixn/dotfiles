@@ -81,7 +81,7 @@ cask 'spotify'
 cask 'telegram'
 cask 'the-unarchiver'
 cask 'viber'
-cask 'visual-studio-code-insiders'
+cask 'visual-studio-code'
 cask 'vlc'
 
 # Install manually
