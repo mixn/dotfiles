@@ -64,7 +64,6 @@ cask 'google-chrome'
 cask 'grammarly'
 cask 'hyper'
 cask 'insomnia'
-cask 'istat-menus'
 cask 'iterm2'
 cask 'licecap'
 cask 'macdown'
@@ -83,11 +82,12 @@ cask 'visual-studio-code'
 cask 'vlc'
 
 # Install manually
+# PhraseExpress, https://goo.gl/LwPtdT
+# iStat-Menus, https://goo.gl/GmXAdm
 # Colorpicker, https://goo.gl/wgPvMM
 # Sketch, https://goo.gl/2ziRQX
 # Space Drop, https://goo.gl/RNAKtU
 # Super Hexagon, https://goo.gl/hyfTRc
-# PhraseExpress, https://goo.gl/LwPtdT
 
 # Quicklook
 cask 'qlcolorcode'
