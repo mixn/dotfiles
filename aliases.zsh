@@ -64,9 +64,6 @@ alias gundo="git undo"
 # Apps                                                                        #
 ###############################################################################
 
-# VSCode
-alias ci="code-insiders"
-
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
