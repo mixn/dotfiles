@@ -50,7 +50,6 @@ brew 'php'
 cask 'alfred'
 cask 'astro'
 cask 'avast-security'
-cask 'bartender'
 cask 'caskroom/versions/firefox-developer-edition'
 cask 'caskroom/versions/google-chrome-canary'
 cask 'cleanapp'
@@ -82,6 +81,7 @@ cask 'visual-studio-code'
 cask 'vlc'
 
 # Install manually
+# Bartender, https://goo.gl/HPn1tK
 # PhraseExpress, https://goo.gl/LwPtdT
 # iStat-Menus, https://goo.gl/GmXAdm
 # Colorpicker, https://goo.gl/wgPvMM
