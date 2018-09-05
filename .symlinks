@@ -23,7 +23,9 @@ ln -s $HOME/.dotfiles/aliases.zsh $HOME/.oh-my-zsh/lib/aliases.zsh
 rm -rf $HOME/.vimrc
 ln -s $HOME/.dotfiles/.vimrc $HOME/.vimrc
 # Create ~/.vim/backups, ~/.vim/swaps, ~/.vim/undo as used in .vimrc
-md $HOME/.vim/backups $HOME/.vim/swapsv $HOME/.vim/undo
+mkdir $HOME/.vim/backups
+mkdir $HOME/.vim/swapsv
+mkdir $HOME/.vim/undo
 
 # hyper.js
 rm -rf $HOME/.hyper.js
