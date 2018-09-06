@@ -1,7 +1,3 @@
-###############################################################################
-# Exports                                                                     #
-###############################################################################
-
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
 export HISTFILESIZE="${HISTSIZE}";

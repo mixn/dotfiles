@@ -2,4 +2,5 @@
 # System                                                                      #
 ###############################################################################
 
+source ~/.dotfiles/system/exports.sh
 source ~/.dotfiles/system/functions.sh
