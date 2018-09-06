@@ -29,7 +29,7 @@ mkdir $HOME/.vim/undo
 
 # hyper.js
 rm -rf $HOME/.hyper.js
-ln -s -f $HOME/.dotfiles/.hyper.js $HOME/.hyper.js
+ln -s -f $HOME/.dotfiles/hyper/.hyper.js $HOME/.hyper.js
 
 # bin/
 # battery-status
