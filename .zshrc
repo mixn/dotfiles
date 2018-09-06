@@ -20,7 +20,6 @@ prompt pure
 # Source and load all things used manually,
 # I prefer the explicitness here over a loop
 . ~/.dotfiles/aliases.zsh
-. ~/.dotfiles/exports.zsh
 . ~/.dotfiles/vim/init.zsh
 . ~/.dotfiles/node/init.zsh
 . ~/.dotfiles/python/init.zsh
