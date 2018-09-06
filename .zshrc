@@ -5,7 +5,7 @@
 export ZSH=/Users/mixn/.oh-my-zsh
 
 # Load Antigen
-. ~/.dotfiles/antigen.zsh
+. ~/.dotfiles/antigen/init.zsh
 
 # Case sensitive matches only
 CASE_SENSITIVE="true"
@@ -24,7 +24,7 @@ prompt pure
 . ~/.dotfiles/extra.zsh
 . ~/.dotfiles/functions.zsh
 . ~/.dotfiles/git.zsh
-. ~/.dotfiles/nvm.zsh
-. ~/.dotfiles/serverless.zsh
-. ~/.dotfiles/thefuck.zsh
-. ~/.dotfiles/z.zsh
+. ~/.dotfiles/nvm/init.zsh
+. ~/.dotfiles/serverless/init.zsh
+. ~/.dotfiles/thefuck/init.zsh
+. ~/.dotfiles/z/init.zsh
