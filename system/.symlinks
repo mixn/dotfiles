@@ -39,3 +39,6 @@ ln -s $HOME/.dotfiles/bin/battery-status /usr/local/bin/battery-status
 # fix-camera
 rm -rf /usr/local/bin/fix-camera
 ln -s $HOME/.dotfiles/bin/fix-camera /usr/local/bin/fix-camera
+# git-unpushed-stat
+rm -rf /usr/local/bin/git-unpushed-stat
+ln -s $HOME/.dotfiles/bin/git-unpushed-stat /usr/local/bin/git-unpushed-stat
