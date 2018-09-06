@@ -103,7 +103,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # Speed up opening of folder when drag and dropping stuff into it
 defaults write -g com.apple.springing.delay -float 0.0
 
-# Show battery percentage
+# Don’t show battery percentage
 defaults write com.apple.menuextra.battery ShowPercent false
 
 # Remove recent tags
@@ -289,7 +289,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
-# Set the icon size of Dock items to 36 pixels
+# Set the icon size of Dock items to 40 pixels
 defaults write com.apple.dock tilesize -int 40
 
 # Change minimize/maximize window effect
@@ -665,7 +665,7 @@ defaults write com.operasoftware.OperaDeveloper PMPrintingExpandedStateForPrint2
 ###############################################################################
 
 # Set up my preferred keyboard shortcuts
-cp -r init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
 
 ###############################################################################
 # Kill affected applications                                                  #

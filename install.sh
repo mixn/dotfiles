@@ -36,4 +36,4 @@ source .symlinks
 
 # Set macOS preferences
 # Run last because this will reload the shell
-source .macos
+source macos/.defaults
