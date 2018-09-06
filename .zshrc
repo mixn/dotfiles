@@ -23,7 +23,7 @@ prompt pure
 . ~/.dotfiles/exports.zsh
 . ~/.dotfiles/extra.zsh
 . ~/.dotfiles/functions.zsh
-. ~/.dotfiles/git.zsh
+. ~/.dotfiles/git/init.zsh
 . ~/.dotfiles/nvm/init.zsh
 . ~/.dotfiles/serverless/init.zsh
 . ~/.dotfiles/thefuck/init.zsh
