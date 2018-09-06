@@ -6,7 +6,7 @@
 
 # .zshrc
 rm -rf $HOME/.zshrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
+ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
 
 # tmux
 rm -rf $HOME/.tmux.conf
