@@ -42,6 +42,9 @@ ln -s $HOME/.dotfiles/bin/fix-camera /usr/local/bin/fix-camera
 # git-unpushed-stat
 rm -rf /usr/local/bin/git-unpushed-stat
 ln -s $HOME/.dotfiles/bin/git-unpushed-stat /usr/local/bin/git-unpushed-stat
-# git-unpushed-stat
+# git-nuke
 rm -rf /usr/local/bin/git-nuke
 ln -s $HOME/.dotfiles/bin/git-nuke /usr/local/bin/git-nuke
+# git-delete-local-merged
+rm -rf /usr/local/bin/git-delete-local-merged
+ln -s $HOME/.dotfiles/bin/git-delete-local-merged /usr/local/bin/git-delete-local-merged
