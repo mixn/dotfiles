@@ -2,5 +2,5 @@
 # Git                                                                         #
 ###############################################################################
 
-source ~/.dotfiles/git/config.zsh
-source ~/.dotfiles/git/extra.zsh
+source ~/.dotfiles/git/config.sh
+source ~/.dotfiles/git/extra.sh

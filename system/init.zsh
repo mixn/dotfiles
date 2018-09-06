@@ -2,4 +2,4 @@
 # System                                                                      #
 ###############################################################################
 
-source ~/.dotfiles/system/functions.zsh
+source ~/.dotfiles/system/functions.sh
