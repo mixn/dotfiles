@@ -15,6 +15,7 @@ module.exports = {
       border: true,
       tabIconsColored: true,
       closeAlign: 'right',
+      activityPulse: false,
     },
   },
   plugins: [
