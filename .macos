@@ -104,13 +104,13 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write -g com.apple.springing.delay -float 0.0
 
 # Show battery percentage
-defaults write com.apple.menuextra.battery ShowPercent true
+defaults write com.apple.menuextra.battery ShowPercent false
 
 # Remove recent tags
 defaults write com.apple.finder ShowRecentTags 0
 
 # Set a custom wallpaper image
-wallpaper ./init/wallpaper.jpg
+wallpaper ~/.dotfiles/init/wallpaper.jpg
 
 # Activate dark mode
 dark-mode on
