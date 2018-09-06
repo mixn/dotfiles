@@ -17,7 +17,7 @@ ln -s $HOME/.dotfiles/tmux/.tmux.conf.local $HOME/.tmux.conf.local
 
 # aliases.zsh
 rm -rf $HOME/.oh-my-zsh/lib/aliases.zsh
-ln -s $HOME/.dotfiles/aliases.zsh $HOME/.oh-my-zsh/lib/aliases.zsh
+ln -s $HOME/.dotfiles/system/aliases.zsh $HOME/.oh-my-zsh/lib/aliases.zsh
 
 # .vimrc
 rm -rf $HOME/.vimrc
