@@ -40,7 +40,7 @@ alias hyperjs="code ~/.dotfiles/.hyper.js"
 # Git                                                                         #
 ###############################################################################
 
-# *Many* other helpers I use day in, day out come via oh-mzy-zsh + git plugin
+# *Many* other helpers I use day in, day out come via oh-my-zsh + git plugin
 
 # Short version is enough in 99% of the cases
 alias gs="gss"
