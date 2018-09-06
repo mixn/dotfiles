@@ -3,3 +3,4 @@
 ###############################################################################
 
 source ~/.dotfiles/git/config.zsh
+source ~/.dotfiles/git/extra.zsh

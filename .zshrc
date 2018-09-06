@@ -21,7 +21,6 @@ prompt pure
 # I prefer the explicitness here over a loop
 . ~/.dotfiles/aliases.zsh
 . ~/.dotfiles/exports.zsh
-. ~/.dotfiles/extra.zsh
 . ~/.dotfiles/functions.zsh
 . ~/.dotfiles/git/init.zsh
 . ~/.dotfiles/nvm/init.zsh
