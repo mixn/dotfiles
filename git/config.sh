@@ -19,3 +19,5 @@ git config --global alias.undo 'reset HEAD~'
 # Diffstat of everything that’s not pushed yet
 # https://stackoverflow.com/a/1309674
 git config --global alias.unpushed '!sh /usr/local/bin/git-unpushed-stat'
+
+git config --global alias.nuke '!sh /usr/local/bin/git-nuke'
