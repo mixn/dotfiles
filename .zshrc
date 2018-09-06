@@ -23,6 +23,7 @@ prompt pure
 . ~/.dotfiles/exports.zsh
 . ~/.dotfiles/vim/init.zsh
 . ~/.dotfiles/node/init.zsh
+. ~/.dotfiles/python/init.zsh
 . ~/.dotfiles/system/init.zsh
 . ~/.dotfiles/git/init.zsh
 . ~/.dotfiles/nvm/init.zsh
