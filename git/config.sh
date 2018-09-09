@@ -1,9 +1,5 @@
 #!/bin/sh
 
-###############################################################################
-# Git                                                                         #
-###############################################################################
-
 # Many, many other Git goodies I use are provided through oh-my-zsh
 # Use diff-so-fancy by default for all git diff commands
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"

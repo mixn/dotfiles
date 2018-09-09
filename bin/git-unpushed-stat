@@ -1,9 +1,5 @@
 #!/bin/sh
 
-###############################################################################
-# git-unpushed-stat                                                           #
-###############################################################################
-
 # Show the diffstat of everything that’s not pushed yet
 
 branch=$(git rev-parse --abbrev-ref HEAD)
