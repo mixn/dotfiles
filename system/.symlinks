@@ -32,6 +32,9 @@ mkdir $HOME/.vim/undo
 rm -rf $HOME/.hyper.js
 ln -s -f $HOME/.dotfiles/hyper/.hyper.js $HOME/.hyper.js
 
+# Spectacle.app
+cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+
 # bin/
 # battery-status
 rm -rf /usr/local/bin/battery-status
