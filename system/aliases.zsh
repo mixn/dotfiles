@@ -56,6 +56,9 @@ alias bs="battery-status"
 # Whenever I forget one of many zsh aliases (, I wonder what “alz” stands for… 🤔)
 alias alz="alias | fzf"
 
+# Open some/several, hand-picked files in VSCode 😍
+alias some="l | fpp -c code"
+
 # Copy ssh key
 alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
 
