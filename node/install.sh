@@ -10,6 +10,7 @@ npm i -g \
 carbon-now-cli \
 credits-cli \
 ember-cli \
+emoj \
 fast-cli \
 fkill-cli \
 git-open \
