@@ -7,6 +7,7 @@
 # Install global NPM packages
 npm i -g \
 @vue/cli \
+alfred-emoj \
 carbon-now-cli \
 credits-cli \
 ember-cli \
