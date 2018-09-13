@@ -30,5 +30,6 @@ serverless \
 speed-test \
 spot \
 tldr \
+underscore-cli \
 wallpaper-cli \
 yarn
