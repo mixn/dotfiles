@@ -22,6 +22,7 @@ is-up-cli \
 manage-wifi-cli \
 n \
 nba-go \
+nodemon \
 now \
 np \
 pkg \
