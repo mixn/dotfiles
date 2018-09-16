@@ -73,6 +73,8 @@ alias rlcli="source $HOME/.zshrc"
 # but prefer this cause of no undesired side-effects
 alias tmuxkill="fkill tmux"
 
+alias bedtime="pmset sleepnow"
+
 # Reload dns
 alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 
