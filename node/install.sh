@@ -25,6 +25,7 @@ nba-go \
 nodemon \
 now \
 np \
+osx-wifi-cli \
 pkg \
 pure-prompt \
 serverless \
