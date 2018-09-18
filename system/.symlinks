@@ -51,3 +51,6 @@ ln -s $HOME/.dotfiles/bin/git-nuke /usr/local/bin/git-nuke
 # git-delete-local-merged
 rm -rf /usr/local/bin/git-delete-local-merged
 ln -s $HOME/.dotfiles/bin/git-delete-local-merged /usr/local/bin/git-delete-local-merged
+# github-open
+rm -rf /usr/local/bin/github-open
+ln -s $HOME/.dotfiles/bin/github-open /usr/local/bin/github-open
