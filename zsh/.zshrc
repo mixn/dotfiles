@@ -28,3 +28,4 @@ prompt pure
 . ~/.dotfiles/serverless/init.zsh
 . ~/.dotfiles/thefuck/init.zsh
 . ~/.dotfiles/z/init.zsh
+. ~/.dotfiles/qfc/init.zsh
