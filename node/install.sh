@@ -13,6 +13,7 @@ carbon-now-cli \
 credits-cli \
 ember-cli \
 emoj \
+empty-trash-cli \
 fast-cli \
 fkill-cli \
 git-open \
