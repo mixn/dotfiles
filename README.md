@@ -67,7 +67,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 - [node](https://nodejs.org/en/)
 - [nodemon](https://github.com/remy/nodemon)
 - [np](https://github.com/sindresorhus/np)
-- [npm](https://yarnpkg.com/lang/en/), [yarn](https://yarnpkg.com/lang/en/)
+- [npm](https://github.com/npm/cli), [yarn](https://yarnpkg.com/lang/en/)
 - [nvm](https://github.com/creationix/nvm), [n](https://github.com/tj/n)
 - [underscore-cli](https://github.com/ddopson/underscore-cli)
 
