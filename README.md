@@ -28,6 +28,8 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/)
 - [Github does Dotfiles](https://dotfiles.github.io/)
+- [Awesome Shell](https://github.com/alebcay/awesome-shell)
+- [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
 
 A big **thank you** to the community and all aforementioned people — you all rock! 👨‍🎤
 
