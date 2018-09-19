@@ -51,6 +51,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 - [spot](https://github.com/rauchg/spot)
 - [tokei](https://github.com/Aaronepower/tokei)
 - [tree](http://mama.indstate.edu/users/ice/tree/)
+- [wget](https://www.gnu.org/software/wget/)
 - [z](https://github.com/rupa/z)
 
 #### Shell
@@ -75,6 +76,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli)
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli)
+- [grip](https://github.com/joeyespo/grip)
 - [hstr](https://github.com/dvorka/hstr)
 - [httpie](https://httpie.org/)
 - [is-up-cli](https://github.com/sindresorhus/is-up-cli)
@@ -83,6 +85,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 - [tldr](https://github.com/tldr-pages/tldr)
 - [wifi-password](https://github.com/rauchg/wifi-password)
 - [wttr](http://wttr.in/)
+- [xsv](https://github.com/BurntSushi/xsv)
 
 #### Graphics
 
@@ -95,6 +98,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 - [dark-mode-cli](https://github.com/sindresorhus/dark-mode-cli)
 - [dockutil](https://github.com/kcrawford/dockutil)
 - [macOS apps](./Brewfile)
+- [mas](https://github.com/mas-cli/mas)
 - [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli)
 - [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
