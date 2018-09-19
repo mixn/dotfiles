@@ -35,14 +35,70 @@ A big **thank you** to the community and all aforementioned people — you all r
 
 ## Essentials 👩‍💻☕️
 
-- [Homebrew](https://brew.sh/), [Homebrew Cask](https://caskroom.github.io/)
-- [Zsh](https://www.zsh.org/), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh), [Antigen](https://github.com/zsh-users/antigen), [Pure](https://github.com/sindresorhus/pure), [tmux](https://github.com/tmux/tmux)
-- [Hyper](https://hyper.is/), [Hyper Plugins](./hyper/.hyper.js), [Ayu](https://github.com/ayu-theme)
-- JS: [node](https://nodejs.org/en/), [yarn](https://yarnpkg.com/lang/en/), [npm](https://yarnpkg.com/lang/en/), [n](https://github.com/tj/n), [nvm](https://github.com/creationix/nvm), 
-- Helpers: [tldr](https://github.com/tldr-pages/tldr), [tig](https://jonas.github.io/tig/), [spot](https://github.com/rauchg/spot), [tree](http://mama.indstate.edu/users/ice/tree/), [gtop](https://github.com/aksakalli/gtop), [httpie](https://httpie.org/), [peco](https://peco.github.io/), [wttr](http://wttr.in/), [thefuck](https://github.com/nvbn/thefuck), [ripgrep](https://github.com/BurntSushi/ripgrep), [exa](https://github.com/ogham/exa), [bat](https://github.com/sharkdp/bat), [tokei](https://github.com/Aaronepower/tokei), [fzf](https://github.com/junegunn/fzf), [wifi-password](https://github.com/rauchg/wifi-password), [fkill-cli](https://github.com/sindresorhus/fkill-cli), [is-up-cli](https://github.com/sindresorhus/is-up-cli), [hstr](https://github.com/dvorka/hstr), [z](https://github.com/rupa/z), [np](https://github.com/sindresorhus/np), [carbon-now-cli](https://github.com/mixn/carbon-now-cli), [PathPicker](https://github.com/facebook/PathPicker), [underscore-cli](https://github.com/ddopson/underscore-cli), [nodemon](https://github.com/remy/nodemon), [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli), [qfc](https://github.com/pindexis/qfc)
-- Graphics: [svgo](https://github.com/svg/svgo), [imagemagick](https://www.imagemagick.org/script/index.php), [ffmpeg](https://www.ffmpeg.org/)
-- macOS: [dockutil](https://github.com/kcrawford/dockutil), [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
+#### Core
+
+- [bat](https://github.com/sharkdp/bat)
+- [coreutils](https://en.wikipedia.org/wiki/GNU_Core_Utilities)
+- [exa](https://github.com/ogham/exa)
+- [fzf](https://github.com/junegunn/fzf)
+- [git](https://git-scm.com/), [tig](https://jonas.github.io/tig/)
+- [gtop](https://github.com/aksakalli/gtop)
+- [Homebrew Cask](https://caskroom.github.io/)
+- [Homebrew](https://brew.sh/)
+- [peco](https://peco.github.io/)
+- [qfc](https://github.com/pindexis/qfc)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [spot](https://github.com/rauchg/spot)
+- [tokei](https://github.com/Aaronepower/tokei)
+- [tree](http://mama.indstate.edu/users/ice/tree/)
+- [z](https://github.com/rupa/z)
+
+#### Shell
+
+- [Antigen](https://github.com/zsh-users/antigen)
+- [Ayu](https://github.com/ayu-theme)
+- [Hyper](https://hyper.is/), [Hyper Plugins](./hyper/.hyper.js)
+- [Pure](https://github.com/sindresorhus/pure)
+- [tmux](https://github.com/tmux/tmux)
+- [Zsh](https://www.zsh.org/), [zsh-completions](https://github.com/zsh-users/zsh-completions), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+#### JS
+
+- [node](https://nodejs.org/en/)
+- [nodemon](https://github.com/remy/nodemon)
+- [np](https://github.com/sindresorhus/np)
+- [npm](https://yarnpkg.com/lang/en/), [yarn](https://yarnpkg.com/lang/en/)
+- [nvm](https://github.com/creationix/nvm), [n](https://github.com/tj/n)
+- [underscore-cli](https://github.com/ddopson/underscore-cli)
+
+#### Helpers
+
+- [carbon-now-cli](https://github.com/mixn/carbon-now-cli)
+- [fkill-cli](https://github.com/sindresorhus/fkill-cli)
+- [hstr](https://github.com/dvorka/hstr)
+- [httpie](https://httpie.org/)
+- [is-up-cli](https://github.com/sindresorhus/is-up-cli)
+- [PathPicker](https://github.com/facebook/PathPicker)
+- [thefuck](https://github.com/nvbn/thefuck)
+- [tldr](https://github.com/tldr-pages/tldr)
+- [wifi-password](https://github.com/rauchg/wifi-password)
+- [wttr](http://wttr.in/)
+
+#### Graphics
+
+- [ffmpeg](https://www.ffmpeg.org/)
+- [imagemagick](https://www.imagemagick.org/script/index.php)
+- [svgo](https://github.com/svg/svgo)
+
+#### macOS
+
+- [dark-mode-cli](https://github.com/sindresorhus/dark-mode-cli)
+- [dockutil](https://github.com/kcrawford/dockutil)
 - [macOS apps](./Brewfile)
+- [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli)
+- [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
+- [trash-cli](https://github.com/sindresorhus/trash-cli)
+- [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli)
 
 ## Author 🙂👋
 
