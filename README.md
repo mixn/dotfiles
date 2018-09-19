@@ -25,9 +25,9 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - [Getting Started With Dotfiles (Lars Kappert)](https://medium.com/@webprolific/getting-started-with-dotfiles-43c3602fd789)
 - [Getting Started with Dotfiles (Dries Vints)](http://sourabhbajaj.com/mac-setup/)
 - [Shell Startup Scripts](https://blog.flowblok.id.au/2013-02/shell-startup-scripts.html)
-- [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [macOS Setup Guide](http://sourabhbajaj.com/mac-setup/)
 - [Github does Dotfiles](https://dotfiles.github.io/)
+- [Awesome Dotfiles](https://github.com/webpro/awesome-dotfiles)
 - [Awesome Shell](https://github.com/alebcay/awesome-shell)
 - [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
 
