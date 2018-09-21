@@ -80,6 +80,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 - [grip](https://github.com/joeyespo/grip)
 - [hstr](https://github.com/dvorka/hstr)
 - [httpie](https://httpie.org/)
+- [hyperfine](https://github.com/sharkdp/hyperfine)
 - [is-up-cli](https://github.com/sindresorhus/is-up-cli)
 - [PathPicker](https://github.com/facebook/PathPicker)
 - [thefuck](https://github.com/nvbn/thefuck)
