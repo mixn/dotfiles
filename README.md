@@ -79,6 +79,7 @@ A big **thank you** to the community and all aforementioned people — you all r
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli)
 - [grip](https://github.com/joeyespo/grip)
 - [hstr](https://github.com/dvorka/hstr)
+- [http-server](https://github.com/indexzero/http-server)
 - [httpie](https://httpie.org/)
 - [hyperfine](https://github.com/sharkdp/hyperfine)
 - [is-up-cli](https://github.com/sindresorhus/is-up-cli)
