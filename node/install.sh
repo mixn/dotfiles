@@ -19,6 +19,7 @@ fkill-cli \
 git-open \
 gitmoji-cli \
 gtop \
+http-server \
 is-up-cli \
 manage-wifi-cli \
 n \
