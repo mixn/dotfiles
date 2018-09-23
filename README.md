@@ -4,7 +4,7 @@
 
 ## Inspiration ❤️🌎
 
-This repo is mostly inspired and heavily influenced by
+This repo is inspired and influenced by
 
 - Mathias Bynens’ [dotfiles](https://github.com/mathiasbynens/dotfiles)
 - Zach Holman’s [dotfiles](https://github.com/holman/dotfiles)
@@ -17,7 +17,7 @@ This repo is mostly inspired and heavily influenced by
 - Eduardo Rabelo’s [dotfiles](https://github.com/oieduardorabelo/dotfiles)
 - Ryan Tomayko’s [dotfiles](https://github.com/rtomayko/dotfiles)
 
-Not a fork of any since I wanted to build from scratch and really **only** include what I need, while improving my understanding of how things work along the way.
+It’s not a fork of any, since I wanted to build from scratch and really **only** include what I need, while improving my understanding of how things work along the way.
 
 Other inspiring and quite helpful articles, repos, tools, etc.:
 
@@ -31,7 +31,7 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - [Awesome Shell](https://github.com/alebcay/awesome-shell)
 - [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
 
-A big **thank you** to the community and all aforementioned people — you all rock! 👨‍🎤
+A big **thank you** to the dotfiles community and all aforementioned people — you all rock! 👨‍🎤
 
 ## Essentials 👩‍💻☕️
 
