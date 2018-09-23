@@ -33,6 +33,30 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 
 A big **thank you** to the dotfiles community and all aforementioned people — you all rock! 👨‍🎤
 
+## Install
+
+#### Disclaimer
+
+These are **my** dotfiles, so please feel free to take anything you want but do so **at your own risk**. 🙂
+
+Also — and this is just my personal opinion — I can **highly** recommend setting up your own `.files` and moving along step by step. There is much to be learned and no better feeling than having full control over the things that are happening and being aware where everything is and what exactly it does. But that’s just me. 🙂
+
+#### Clone with Git
+
+On a fresh install of macOS, run:
+
+```
+sudo softwareupdate -i -a
+xcode-select --install
+```
+
+Then clone the repo and run `scripts/install.sh`:
+
+```
+git clone https://github.com/mixn/dotfiles.git ~/.dotfiles
+source ~/.dotfiles/scripts/install.sh
+```
+
 ## Essentials 👩‍💻☕️
 
 #### Core
