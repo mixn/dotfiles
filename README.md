@@ -35,11 +35,11 @@ A big **thank you** to the dotfiles community and all aforementioned people — 
 
 ## Install
 
-#### Disclaimer
+#### ⚠️ Disclaimer ⚠️
 
-These are **my** dotfiles, so please feel free to take anything you want but do so **at your own risk**. 🙂
+These are **my** dotfiles, so please feel free to take anything you want but do so **at your own risk**. 🙂 You should first fork this repository, review the code, and remove the things you don’t want or need. Don’t blindly use stuff unless you know what that entails.
 
-Also — and this is just my personal opinion — I can **highly** recommend setting up your own `.files` and moving along step by step. There is much to be learned and no better feeling than having full control over the things that are happening and being aware where everything is and what exactly it does. But that’s just me. 🙂
+Also — and this is just my personal opinion — I can **highly** recommend setting up your own `.files` (instead of forking an existing project) and moving along step by step. There is much to be learned and no better feeling than having full control over the things that are happening and being aware where everything is and what exactly it does. But that’s just me. 🙂
 
 #### Clone with Git
 
