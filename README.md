@@ -57,6 +57,18 @@ git clone https://github.com/mixn/dotfiles.git ~/.dotfiles
 source ~/.dotfiles/scripts/install.sh
 ```
 
+The missing `git/extra.sh` looks like this:
+
+```
+# Not in the repository, to prevent people from accidentally committing under my name
+GIT_AUTHOR_NAME="mixn"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="sutanovac.milos@gmail.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+```
+
 ## Essentials 👩‍💻☕️
 
 #### Core
