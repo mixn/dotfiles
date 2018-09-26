@@ -100,12 +100,14 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 #### Shell
 
-- [Antigen](https://github.com/zsh-users/antigen)
 - [Ayu](https://github.com/ayu-theme)
 - [Hyper](https://hyper.is/), [Hyper Plugins](./hyper/.hyper.js)
 - [Pure](https://github.com/sindresorhus/pure)
 - [tmux](https://github.com/tmux/tmux)
-- [Zsh](https://www.zsh.org/), [zsh-completions](https://github.com/zsh-users/zsh-completions), [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [Zsh](https://www.zsh.org/)
+  - [Antigen](https://github.com/zsh-users/antigen)
+  - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+  - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 
 #### JS
 
