@@ -107,7 +107,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [Zsh](https://www.zsh.org/)
   - [Antigen](https://github.com/zsh-users/antigen)
   - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
-  - [zsh-completions](https://github.com/zsh-users/zsh-completions)
+  - [zsh-users stuff](https://github.com/zsh-users) and [more](./antigen/init.zsh)
 
 #### JS
 
