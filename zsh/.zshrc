@@ -29,3 +29,4 @@ prompt pure
 . ~/.dotfiles/thefuck/init.zsh
 . ~/.dotfiles/z/init.zsh
 . ~/.dotfiles/qfc/init.zsh
+. ~/.dotfiles/editorconfig/init.zsh
