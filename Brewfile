@@ -81,6 +81,7 @@ cask 'spotify'
 cask 'telegram'
 cask 'the-unarchiver'
 cask 'viber'
+cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 
