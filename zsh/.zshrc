@@ -30,3 +30,4 @@ prompt pure
 . ~/.dotfiles/z/init.zsh
 . ~/.dotfiles/qfc/init.zsh
 . ~/.dotfiles/editorconfig/init.zsh
+. ~/.dotfiles/rust/init.zsh
