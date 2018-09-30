@@ -147,6 +147,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 - [dark-mode-cli](https://github.com/sindresorhus/dark-mode-cli)
 - [dockutil](https://github.com/kcrawford/dockutil)
+- [file-type-cli](https://github.com/sindresorhus/file-type-cli)
 - [macOS apps](./Brewfile)
 - [mas](https://github.com/mas-cli/mas)
 - [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli)
