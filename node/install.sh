@@ -15,6 +15,7 @@ ember-cli \
 emoj \
 empty-trash-cli \
 fast-cli \
+file-type-cli \
 fkill-cli \
 git-open \
 gitmoji-cli \
