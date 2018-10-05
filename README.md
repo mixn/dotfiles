@@ -113,6 +113,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 - [node](https://nodejs.org/en/)
 - [nodemon](https://github.com/remy/nodemon)
+- [now](https://github.com/zeit/now-cli)
 - [np](https://github.com/sindresorhus/np)
 - [npm](https://github.com/npm/cli), [yarn](https://yarnpkg.com/lang/en/)
 - [nvm](https://github.com/creationix/nvm), [n](https://github.com/tj/n)
