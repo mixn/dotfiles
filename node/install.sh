@@ -22,6 +22,7 @@ gitmoji-cli \
 gtop \
 http-server \
 is-up-cli \
+jsvu \
 manage-wifi-cli \
 n \
 nba-go \
