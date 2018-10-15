@@ -100,7 +100,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 #### Shell
 
-- [Ayu](https://github.com/ayu-theme)
+- [Ayu](https://github.com/ayu-theme) / [City Lights](http://citylights.xyz/) / 
 - [Hyper](https://hyper.is/), [Hyper Plugins](./hyper/.hyper.js)
 - [Pure](https://github.com/sindresorhus/pure)
 - [tmux](https://github.com/tmux/tmux)
