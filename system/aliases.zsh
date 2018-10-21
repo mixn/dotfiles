@@ -69,7 +69,7 @@ alias copywifipw="wifi-password | pbcopy"
 alias rlcli="source $HOME/.zshrc"
 
 # Kill all tmux processes simultaneously, leveraging fkill-cli,
-# was previously using all solutions from https://goo.gl/Lqh51S 
+# was previously using all solutions from https://goo.gl/Lqh51S
 # but prefer this cause of no undesired side-effects
 alias tmuxkill="fkill tmux"
 
