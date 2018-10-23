@@ -1,11 +1,11 @@
 module.exports = {
   config: {
-    fontSize: 18,
-    fontFamily: '"IBMPlexMono-ExtraLight", "Fira Code", Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontSize: 16,
+    fontFamily: '"IBMPlexMono-ExtraLight", "Inconsolata", "Anonymous Pro"',
     cursorBlink: true,
     // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
     cursorShape: 'BEAM',
-    padding: '15px',
+		padding: '15px',
     shellArgs: ['--login'],
     env: {},
     bell: false,
@@ -16,14 +16,19 @@ module.exports = {
       tabIconsColored: true,
       closeAlign: 'right',
       activityPulse: false,
-    },
+		},
+		hyperBorder: {
+			borderColors: ['#D066D4', '#53A1F7'],
+			borderWidth: '1px'
+		}
   },
   plugins: [
 		// "hyper-ayu",
     // "hyper-ayu-mirage",
     // "hyper-dark-dracula",
     // "hyper-snazzy",
-    // "hyperterm-duotone-darksea",
+		// "hyperterm-duotone-darksea",
+		"hyperborder",
 		"hyper-city-lights",
     "hyper-search",
     "hyper-tabs-enhanced",
