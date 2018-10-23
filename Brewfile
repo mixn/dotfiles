@@ -113,6 +113,7 @@ mas 'Amphetamine', id: 937984704
 mas 'Bear', id: 1091189122
 mas 'CopyClip', id: 595191960
 mas 'Day One', id: 1055511498
+mas 'GIF Brewery 3', id: 1081413713
 mas 'Keynote', id: 409183694
 mas 'LIMBO', id: 481629890
 mas 'Monosnap', id: 540348655
