@@ -20,6 +20,7 @@ fkill-cli \
 git-open \
 gitmoji-cli \
 gtop \
+how-2 \
 http-server \
 is-up-cli \
 jsvu \

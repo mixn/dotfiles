@@ -100,7 +100,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 #### Shell
 
-- [Ayu](https://github.com/ayu-theme) / [City Lights](http://citylights.xyz/) / 
+- [Ayu](https://github.com/ayu-theme) / [City Lights](http://citylights.xyz/) /
 - [Hyper](https://hyper.is/), [Hyper Plugins](./hyper/.hyper.js)
 - [Pure](https://github.com/sindresorhus/pure)
 - [tmux](https://github.com/tmux/tmux)
@@ -127,6 +127,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli)
 - [googler](https://github.com/jarun/googler)
 - [grip](https://github.com/joeyespo/grip)
+- [how2](https://github.com/santinic/how2)
 - [hstr](https://github.com/dvorka/hstr)
 - [http-server](https://github.com/indexzero/http-server)
 - [httpie](https://httpie.org/)
