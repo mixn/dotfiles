@@ -17,6 +17,7 @@ empty-trash-cli \
 fast-cli \
 file-type-cli \
 fkill-cli \
+fx \
 git-open \
 gitmoji-cli \
 gtop \
