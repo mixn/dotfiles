@@ -33,6 +33,7 @@ now \
 np \
 osx-wifi-cli \
 pkg \
+prisma \
 pure-prompt \
 serverless \
 speed-test \
