@@ -28,7 +28,7 @@ module.exports = {
     // 'hyper-dark-dracula',
     // 'hyper-snazzy',
 		// 'hyperterm-duotone-darksea',
-		'hyper-statusline',
+		// 'hyper-statusline',
 		'hyperborder',
 		'hyper-city-lights',
     'hyper-search',
