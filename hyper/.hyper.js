@@ -23,14 +23,14 @@ module.exports = {
 		}
   },
   plugins: [
-		// 'hyper-ayu',
+		'hyper-ayu',
     // 'hyper-ayu-mirage',
     // 'hyper-dark-dracula',
     // 'hyper-snazzy',
 		// 'hyperterm-duotone-darksea',
 		// 'hyper-statusline',
 		'hyperborder',
-		'hyper-city-lights',
+		// 'hyper-city-lights',
     'hyper-search',
     'hyper-tabs-enhanced',
     'hypercwd',
