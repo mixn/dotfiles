@@ -40,5 +40,6 @@ speed-test \
 spot \
 tldr \
 underscore-cli \
+updtr \
 wallpaper-cli \
 yarn
