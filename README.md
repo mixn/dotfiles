@@ -120,6 +120,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [fx](https://github.com/antonmedv/fx)
 - [jsvu](https://github.com/GoogleChromeLabs/jsvu)
 - [updtr](https://github.com/peerigon/updtr)
+- [jsonlint](https://github.com/zaach/jsonlint)
 - [underscore-cli](https://github.com/ddopson/underscore-cli)
 
 #### Helpers

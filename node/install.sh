@@ -24,6 +24,7 @@ gtop \
 how-2 \
 http-server \
 is-up-cli \
+jsonlint \
 jsvu \
 manage-wifi-cli \
 n \
