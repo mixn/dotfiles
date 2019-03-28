@@ -127,6 +127,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 - [carbon-now-cli](https://github.com/mixn/carbon-now-cli)
 - [fast-cli](https://github.com/sindresorhus/fast-cli)
+- [ffsend](https://github.com/timvisee/ffsend)
 - [fkill-cli](https://github.com/sindresorhus/fkill-cli)
 - [googler](https://github.com/jarun/googler)
 - [grip](https://github.com/joeyespo/grip)
