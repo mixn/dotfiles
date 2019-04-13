@@ -40,6 +40,7 @@ serverless \
 speed-test \
 spot \
 tldr \
+typescript@next \
 underscore-cli \
 updtr \
 wallpaper-cli \
