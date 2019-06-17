@@ -139,6 +139,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [hyperfine](https://github.com/sharkdp/hyperfine)
 - [is-up-cli](https://github.com/sindresorhus/is-up-cli)
 - [PathPicker](https://github.com/facebook/PathPicker)
+- [replace-in-files-cli](https://github.com/sindresorhus/replace-in-files-cli)
 - [thefuck](https://github.com/nvbn/thefuck)
 - [tldr](https://github.com/tldr-pages/tldr)
 - [wifi-password](https://github.com/rauchg/wifi-password)

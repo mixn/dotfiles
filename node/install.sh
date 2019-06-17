@@ -36,6 +36,7 @@ osx-wifi-cli \
 pkg \
 prisma \
 pure-prompt \
+replace-in-files-cli \
 serverless \
 speed-test \
 spot \
