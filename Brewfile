@@ -62,6 +62,7 @@ cask 'cleanapp'
 cask 'colorpicker-skalacolor'
 cask 'docker'
 cask 'dropbox'
+cask 'dropshare'
 cask 'firefox'
 cask 'flux'
 cask 'font-ibm-plex'
@@ -95,7 +96,6 @@ cask 'vlc'
 # iStat-Menus, https://goo.gl/GmXAdm
 # Colorpicker, https://goo.gl/wgPvMM
 # Sketch, https://goo.gl/2ziRQX
-# Space Drop, https://goo.gl/RNAKtU
 # Super Hexagon, https://goo.gl/hyfTRc
 
 # Quicklook
