@@ -32,6 +32,7 @@ nba-go \
 nodemon \
 now \
 np \
+ntl \
 osx-wifi-cli \
 pkg \
 prisma \

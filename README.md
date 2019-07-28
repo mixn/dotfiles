@@ -117,6 +117,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [np](https://github.com/sindresorhus/np)
 - [npm](https://github.com/npm/cli), [yarn](https://yarnpkg.com/lang/en/)
 - [nvm](https://github.com/creationix/nvm), [n](https://github.com/tj/n)
+- [ntl](https://github.com/ruyadorno/ntl)
 - [TypeScript](https://github.com/Microsoft/TypeScript/)
 - [fx](https://github.com/antonmedv/fx)
 - [jsvu](https://github.com/GoogleChromeLabs/jsvu)
