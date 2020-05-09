@@ -30,6 +30,7 @@ brew 'hyperfine'
 brew 'imagemagick'
 brew 'mas'
 brew 'moreutils'
+brew 'notion'
 brew 'peco'
 brew 'reattach-to-user-namespace'
 brew 'ripgrep'
@@ -69,7 +70,6 @@ cask 'font-ibm-plex'
 cask 'gitkraken'
 cask 'google-chrome'
 cask 'grammarly'
-cask 'hyper'
 cask 'insomnia'
 cask 'iterm2'
 cask 'kap'
@@ -95,7 +95,6 @@ cask 'vlc'
 # PhraseExpress, https://goo.gl/LwPtdT
 # iStat-Menus, https://goo.gl/GmXAdm
 # Colorpicker, https://goo.gl/wgPvMM
-# Sketch, https://goo.gl/2ziRQX
 # Super Hexagon, https://goo.gl/hyfTRc
 
 # Quicklook
@@ -114,7 +113,6 @@ mas 'Xcode', id: 497799835
 mas '1Password', id: 1333542190
 mas 'Amphetamine', id: 937984704
 mas 'Bear', id: 1091189122
-mas 'CopyClip', id: 595191960
 mas 'Day One', id: 1055511498
 mas 'GIF Brewery 3', id: 1081413713
 mas 'Keynote', id: 409183694
