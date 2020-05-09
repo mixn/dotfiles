@@ -101,7 +101,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 #### Shell
 
 - [Ayu](https://github.com/ayu-theme) / [City Lights](http://citylights.xyz/)
-- [Hyper](https://hyper.is/), [Hyper Plugins](./hyper/.hyper.js)
+- ~~[Hyper](https://hyper.is/)~~, ~~[Hyper Plugins](./hyper/.hyper.js)~~ [iTerm2](https://www.iterm2.com/version3.html)
 - [Pure](https://github.com/sindresorhus/pure)
 - [tmux](https://github.com/tmux/tmux)
 - [Zsh](https://www.zsh.org/)
@@ -168,5 +168,5 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 ## Author 🙂👋
 
 | [![twitter/mixn](https://s.gravatar.com/avatar/25f6ced5bed9c19f2174e68798fb8f66?s=80)](http://twitter.com/mixn "Follow @mixn on Twitter") |
-|---|
-| [Miloš Sutanovac](https://mixn.io/) |
+| ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [Miloš Sutanovac](https://mixn.io/)                                                                                                       |

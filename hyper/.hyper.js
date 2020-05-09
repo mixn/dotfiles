@@ -31,6 +31,7 @@ module.exports = {
     // 'hyper-statusline',
     "hyperborder",
     "hyper-city-lights",
+    // "hyper-solarized-light",
     "hyper-search",
     "hyper-tabs-enhanced",
     "hypercwd",
