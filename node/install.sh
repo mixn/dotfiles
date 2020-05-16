@@ -30,7 +30,6 @@ manage-wifi-cli \
 n \
 nba-go \
 nodemon \
-now \
 np \
 ntl \
 osx-wifi-cli \
@@ -45,5 +44,6 @@ tldr \
 typescript@next \
 underscore-cli \
 updtr \
+vercel \
 wallpaper-cli \
 yarn
