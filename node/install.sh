@@ -41,6 +41,7 @@ serverless \
 speed-test \
 spot \
 tldr \
+ttab \
 typescript@next \
 underscore-cli \
 updtr \
