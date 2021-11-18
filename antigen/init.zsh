@@ -4,6 +4,7 @@
 
 source /usr/local/share/antigen/antigen.zsh
 
+antigen bundle Aloxaf/fzf-tab
 antigen use oh-my-zsh
 antigen bundle djui/alias-tips
 antigen bundle git
