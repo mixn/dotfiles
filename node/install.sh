@@ -26,6 +26,7 @@ http-server \
 is-up-cli \
 jsonlint \
 jsvu \
+kill-tabs \
 manage-wifi-cli \
 n \
 nba-go \
