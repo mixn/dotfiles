@@ -9,6 +9,7 @@ npm i -g \
 @vue/cli \
 carbon-now-cli \
 credits-cli \
+@campvanilla/ditto-cli \
 ember-cli \
 emoj \
 empty-trash-cli \
