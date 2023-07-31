@@ -33,24 +33,24 @@ rm -rf $HOME/.hyper.js
 ln -s -f $HOME/.dotfiles/hyper/.hyper.js $HOME/.hyper.js
 
 # Spectacle.app
-cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/Shortcuts.json 2> /dev/null
+cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/spectacle.json 2> /dev/null
 
 # bin/
 # battery-status
 rm -rf /usr/local/bin/battery-status
-ln -s $HOME/.dotfiles/bin/battery-status /usr/local/bin/battery-status
+sudo ln -s $HOME/.dotfiles/bin/battery-status /usr/local/bin/battery-status
 # fix-camera
 rm -rf /usr/local/bin/fix-camera
-ln -s $HOME/.dotfiles/bin/fix-camera /usr/local/bin/fix-camera
+sudo ln -s $HOME/.dotfiles/bin/fix-camera /usr/local/bin/fix-camera
 # git-unpushed-stat
 rm -rf /usr/local/bin/git-unpushed-stat
-ln -s $HOME/.dotfiles/bin/git-unpushed-stat /usr/local/bin/git-unpushed-stat
+sudo ln -s $HOME/.dotfiles/bin/git-unpushed-stat /usr/local/bin/git-unpushed-stat
 # git-nuke
 rm -rf /usr/local/bin/git-nuke
-ln -s $HOME/.dotfiles/bin/git-nuke /usr/local/bin/git-nuke
+sudo ln -s $HOME/.dotfiles/bin/git-nuke /usr/local/bin/git-nuke
 # git-delete-local-merged
 rm -rf /usr/local/bin/git-delete-local-merged
-ln -s $HOME/.dotfiles/bin/git-delete-local-merged /usr/local/bin/git-delete-local-merged
+sudo ln -s $HOME/.dotfiles/bin/git-delete-local-merged /usr/local/bin/git-delete-local-merged
 # github-open
 rm -rf /usr/local/bin/github-open
-ln -s $HOME/.dotfiles/bin/github-open /usr/local/bin/github-open
+sudo ln -s $HOME/.dotfiles/bin/github-open /usr/local/bin/github-open
