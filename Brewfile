@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/cask'
 tap 'homebrew/core'
+tap 'espanso/espanso'
 
 # Binaries
 brew 'antigen'
@@ -13,6 +14,7 @@ brew 'ctop'
 brew 'dark-mode'
 brew 'diff-so-fancy'
 brew 'dockutil'
+brew 'espanso'
 brew 'exa'
 brew 'fd'
 brew 'ffmpeg'
@@ -22,10 +24,9 @@ brew 'fzf'
 brew 'gh'
 brew 'git-recent'
 brew 'git'
-brew 'googler'
 brew 'grep'
 brew 'grip'
-brew 'hh'
+brew 'hstr'
 brew 'hr'
 brew 'httpie'
 brew 'hyperfine'
@@ -53,13 +54,12 @@ brew 'zsh'
 brew 'mysql'
 brew 'node'
 brew 'php'
+brew 'python'
 
 # Apps
 cask 'alfred'
-cask 'astro'
-cask 'avast-security'
-cask 'caskroom/versions/firefox-developer-edition'
-cask 'caskroom/versions/google-chrome-canary'
+cask 'homebrew/cask-versions/firefox-developer-edition'
+cask 'homebrew/cask-versions/google-chrome-canary'
 cask 'cleanapp'
 cask 'colorpicker-skalacolor'
 cask 'discord'
@@ -67,39 +67,33 @@ cask 'docker'
 cask 'dropbox'
 cask 'dropshare'
 cask 'firefox'
-cask 'flux'
+cask 'figma'
 cask 'font-ibm-plex'
-cask 'gitkraken'
 cask 'google-chrome'
 cask 'grammarly'
 cask 'insomnia'
 cask 'iterm2'
 cask 'kap'
-cask 'licecap'
-cask 'macdown'
+cask 'linear-linear'
 cask 'microsoft-teams'
 cask 'notion'
-cask 'now'
 cask 'numi'
 cask 'opera'
 cask 'postman'
 cask 'screenflow'
-cask 'shuttle'
 cask 'spectacle'
 cask 'spotify'
 cask 'tableplus'
 cask 'telegram'
 cask 'the-unarchiver'
 cask 'viber'
-cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 
 # Install manually
-# Bartender, https://goo.gl/HPn1tK
-# PhraseExpress, https://goo.gl/LwPtdT
-# iStat-Menus, https://goo.gl/GmXAdm
-# Colorpicker, https://goo.gl/wgPvMM
+# Bartender, https://www.macbartender.com/
+# iStat-Menus, https://bjango.com/mac/istatmenus/
+# Transmit, https://panic.com/transmit/
 # Super Hexagon, https://goo.gl/hyfTRc
 
 # Quicklook
@@ -117,17 +111,17 @@ cask 'webpquicklook'
 mas 'Xcode', id: 497799835
 mas '1Password', id: 1333542190
 mas 'Amphetamine', id: 937984704
-mas 'Bear', id: 1091189122
-mas 'Day One', id: 1055511498
-mas 'GIF Brewery 3', id: 1081413713
+# mas 'Bear', id: 1091189122
+# mas 'Day One', id: 1055511498
+# mas 'GIF Brewery 3', id: 1081413713
 mas 'Keynote', id: 409183694
 mas 'LIMBO', id: 481629890
-mas 'Monosnap', id: 540348655
-mas 'Numbers', id: 409203825
+# mas 'Monosnap', id: 540348655
+# mas 'Numbers', id: 409203825
 mas 'Pages', id: 409201541
 mas 'Pocket', id: 568494494
 mas 'Slack', id: 803453959
 mas 'The Unarchiver', id: 425424353
 mas 'Things3', id: 904280696
 mas 'VPN Unlimited', id: 727593140
-mas 'WhatsApp', id: 1147396723
+# mas 'WhatsApp', id: 1147396723
