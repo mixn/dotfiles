@@ -18,11 +18,11 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install all the things
 source ~/.dotfiles/homebrew/install.sh
-source ~/.dotfiles/node/install.sh
 source ~/.dotfiles/nvm/install.sh
+source ~/.dotfiles/oh-my-zsh/install.sh
+source ~/.dotfiles/node/install.sh
 source ~/.dotfiles/composer/install.sh
 source ~/.dotfiles/rust/install.sh
-source ~/.dotfiles/oh-my-zsh/install.sh
 
 ###############################################################################
 # Symlinks                                                                    #

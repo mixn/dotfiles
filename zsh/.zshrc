@@ -5,6 +5,7 @@
 export ZSH=/Users/mixn/.oh-my-zsh
 
 # Load Antigen
+source ~/.antigen.zsh
 . ~/.dotfiles/antigen/init.zsh
 
 # Case sensitive matches only
