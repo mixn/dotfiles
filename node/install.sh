@@ -6,10 +6,12 @@
 
 # Install global NPM packages
 npm i -g \
+@action-validator/core \
+@action-validator/cli \
+@campvanilla/ditto-cli \
 @vue/cli \
 carbon-now-cli \
 credits-cli \
-@campvanilla/ditto-cli \
 ember-cli \
 emoj \
 empty-trash-cli \
@@ -28,7 +30,6 @@ jsvu \
 kill-tabs \
 manage-wifi-cli \
 n \
-nba-go \
 nodemon \
 np \
 ntl \
