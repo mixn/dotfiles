@@ -153,6 +153,7 @@ defaults write NSGlobalDomain AppleLanguages -array "en-DE" "de-DE" "sr-Latn-DE"
 defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=EUR"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
+defaults write com.apple.TextInputMenu visible -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Europe/Berlin" > /dev/null

@@ -95,7 +95,7 @@ cask 'vlc'
 # Bartender, https://www.macbartender.com/
 # iStat-Menus, https://bjango.com/mac/istatmenus/
 # Transmit, https://panic.com/transmit/
-# Super Hexagon, https://goo.gl/hyfTRc
+# Super Hexagon, https://apps.apple.com/us/app/super-hexagon/id609274853?mt=12
 
 # Quicklook
 cask 'qlcolorcode'
