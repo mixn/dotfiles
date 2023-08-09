@@ -10,6 +10,7 @@ npm i -g \
 @action-validator/cli \
 @campvanilla/ditto-cli \
 @vue/cli \
+blitz \
 carbon-now-cli \
 credits-cli \
 ember-cli \
@@ -32,6 +33,7 @@ manage-wifi-cli \
 n \
 nodemon \
 np \
+npkill \
 ntl \
 osx-wifi-cli \
 pkg \
