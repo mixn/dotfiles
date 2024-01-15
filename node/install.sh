@@ -37,6 +37,7 @@ npkill \
 ntl \
 osx-wifi-cli \
 pkg \
+pnpm \
 prisma \
 pure-prompt \
 replace-in-files-cli \
