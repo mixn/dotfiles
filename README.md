@@ -76,7 +76,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [bat](https://github.com/sharkdp/bat)
 - [coreutils](https://en.wikipedia.org/wiki/GNU_Core_Utilities)
 - [ctop](https://github.com/bcicen/ctop)
-- [exa](https://github.com/ogham/exa)
+- [eza](https://github.com/eza-community/eza)
 - [fd](https://github.com/sharkdp/fd)
 - [fzf](https://github.com/junegunn/fzf)
 - [git](https://git-scm.com/)
