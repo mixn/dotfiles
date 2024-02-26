@@ -58,6 +58,7 @@ brew 'python'
 
 # Apps
 cask 'alfred'
+cask 'arc'
 cask 'homebrew/cask-versions/firefox-developer-edition'
 cask 'homebrew/cask-versions/google-chrome-canary'
 cask 'brave-browser'
