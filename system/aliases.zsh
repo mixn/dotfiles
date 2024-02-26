@@ -16,6 +16,7 @@ fi
 ###############################################################################
 
 alias ~="cd ~"
+alias c="clear"
 alias dt="~/Desktop"
 alias dl="~/Downloads"
 alias p="~/Projects"
@@ -28,6 +29,7 @@ alias bin="/usr/local/bin"
 alias svl="sls" # I prefer this over `sls`
 alias ydl="youtube-dl"
 alias cat="bat"
+alias code="cursor"
 alias cr="cargo run"
 alias t="date +%H:%M"
 
@@ -49,9 +51,6 @@ alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Ch
 ###############################################################################
 # Helpers                                                                     #
 ###############################################################################
-
-alias c="clear"
-
 # Faster battery-status
 alias bs="battery-status"
 
