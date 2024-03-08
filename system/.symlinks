@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-###############################################################################
-# Symlinks                                                                    #
-###############################################################################
-
 # .zshrc
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/zsh/.zshrc $HOME/.zshrc
@@ -33,7 +29,7 @@ rm -rf $HOME/.hyper.js
 ln -s -f $HOME/.dotfiles/hyper/.hyper.js $HOME/.hyper.js
 
 # Spectacle.app
-cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/spectacle.json 2> /dev/null
+cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/spectacle.json 2>/dev/null
 
 # bin/
 # battery-status

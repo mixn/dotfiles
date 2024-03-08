@@ -1,7 +1,3 @@
-###############################################################################
-# Zsh                                                                         #
-###############################################################################
-
 export ZSH=/Users/mixn/.oh-my-zsh
 
 # Load Antigen
@@ -15,7 +11,8 @@ CASE_SENSITIVE="true"
 source $ZSH/oh-my-zsh.sh
 
 # Initialize Pure prompt
-autoload -U promptinit; promptinit
+autoload -U promptinit
+promptinit
 prompt pure
 
 # Source and load all things used manually,
@@ -26,6 +23,7 @@ prompt pure
 . ~/.dotfiles/system/init.zsh
 . ~/.dotfiles/git/init.zsh
 . ~/.dotfiles/nvm/init.zsh
+. ~/.dotfiles/pnpm/init.zsh
 . ~/.dotfiles/serverless/init.zsh
 . ~/.dotfiles/thefuck/init.zsh
 . ~/.dotfiles/z/init.zsh
