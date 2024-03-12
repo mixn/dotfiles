@@ -10,7 +10,11 @@ echo "Setting up Mac…"
 sudo -v
 
 # Keep-alive: update existing `sudo` time stamp until `.install` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
+while true; do
+  sudo -n true
+  sleep 60
+  kill -0 "$$" || exit
+done 2>/dev/null &
 
 ###############################################################################
 # Dependencies                                                                #
@@ -21,6 +25,7 @@ source ~/.dotfiles/homebrew/install.sh
 source ~/.dotfiles/nvm/install.sh
 source ~/.dotfiles/oh-my-zsh/install.sh
 source ~/.dotfiles/node/install.sh
+source ~/.dotfiles/tpm/install.sh
 source ~/.dotfiles/composer/install.sh
 source ~/.dotfiles/rust/install.sh
 
