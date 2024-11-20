@@ -120,7 +120,9 @@ alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && kil
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias hd="hidedesktop"
 alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+alias sd="showdesktop"
 
 # URL-encode strings
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1]);"'

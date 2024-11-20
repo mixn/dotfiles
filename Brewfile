@@ -7,6 +7,7 @@ tap 'homebrew/core'
 tap 'espanso/espanso'
 
 # Binaries
+brew '1password-cli'
 brew 'antigen'
 brew 'bat'
 brew 'coreutils'
