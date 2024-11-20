@@ -19,7 +19,6 @@ prompt pure
 # I prefer the explicitness here over a loop
 . ~/.dotfiles/vim/init.zsh
 . ~/.dotfiles/node/init.zsh
-. ~/.dotfiles/python/init.zsh
 . ~/.dotfiles/system/init.zsh
 . ~/.dotfiles/git/init.zsh
 . ~/.dotfiles/nvm/init.zsh
@@ -31,3 +30,7 @@ prompt pure
 . ~/.dotfiles/editorconfig/init.zsh
 . ~/.dotfiles/rust/init.zsh
 . ~/.dotfiles/composer/init.zsh
+. ~/.dotfiles/python/init.zsh
+
+# Created by `pipx` on 2024-11-20 15:41:54
+export PATH="$PATH:/Users/mixn/.local/bin"
