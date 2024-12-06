@@ -23,6 +23,7 @@ prompt pure
 . ~/.dotfiles/git/init.zsh
 . ~/.dotfiles/nvm/init.zsh
 . ~/.dotfiles/pnpm/init.zsh
+. ~/.dotfiles/bun/init.zsh
 . ~/.dotfiles/serverless/init.zsh
 . ~/.dotfiles/thefuck/init.zsh
 . ~/.dotfiles/z/init.zsh
