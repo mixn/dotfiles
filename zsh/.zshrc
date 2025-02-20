@@ -32,6 +32,4 @@ prompt pure
 . ~/.dotfiles/rust/init.zsh
 . ~/.dotfiles/composer/init.zsh
 . ~/.dotfiles/python/init.zsh
-
-# Created by `pipx` on 2024-11-20 15:41:54
-export PATH="$PATH:/Users/mixn/.local/bin"
+. ~/.dotfiles/pipx/init.zsh
