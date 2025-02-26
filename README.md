@@ -69,7 +69,7 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-## Essentials 👩‍💻☕️
+<!-- ## Essentials 👩‍💻☕️
 
 #### Core
 
@@ -164,7 +164,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 - [osx-wifi-cli](https://github.com/danyshaanan/osx-wifi-cli)
 - [Quick Look Plugins](https://github.com/sindresorhus/quick-look-plugins)
 - [trash-cli](https://github.com/sindresorhus/trash-cli)
-- [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli)
+- [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli) -->
 
 ## Author 🙂👋
 
