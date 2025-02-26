@@ -4,7 +4,7 @@
 
 ## Inspiration ❤️🌎
 
-This repo is inspired and influenced by
+This repository is inspired and influenced by
 
 - Mathias Bynens’ [dotfiles](https://github.com/mathiasbynens/dotfiles)
 - Zach Holman’s [dotfiles](https://github.com/holman/dotfiles)
@@ -17,7 +17,7 @@ This repo is inspired and influenced by
 - Eduardo Rabelo’s [dotfiles](https://github.com/oieduardorabelo/dotfiles)
 - Ryan Tomayko’s [dotfiles](https://github.com/rtomayko/dotfiles)
 
-It’s not a fork of any, since I wanted to build from scratch and really **only** include what I need, while improving my understanding of how things work along the way.
+It’s not a fork of any, as I wanted to build from scratch and include only what I need while improving my understanding of how things work along the way.
 
 Other inspiring and quite helpful articles, repos, tools, etc.:
 
@@ -31,15 +31,15 @@ Other inspiring and quite helpful articles, repos, tools, etc.:
 - [Awesome Shell](https://github.com/alebcay/awesome-shell)
 - [Awesome UNIX®](https://github.com/sirredbeard/Awesome-UNIX)
 
-A big **thank you** to the dotfiles community and all aforementioned people — you all rock! 👨‍🎤
+A big thank you to the dotfiles community and all aforementioned people — you all rock! 👨‍🎤
 
 ## Install
 
 #### ⚠️ Disclaimer ⚠️
 
-These are **my** dotfiles, so please feel free to take anything you want but do so **at your own risk**. 🙂 You should first fork this repository, review the code, and remove the things you don’t want or need. Don’t blindly use stuff unless you know what that entails.
+These are my dotfiles, so feel free to take anything you want but do so at your own risk. 🙂 You should first fork this repository, review the code, and remove the things you don’t want or need. Don’t blindly use stuff unless you know what that entails.
 
-Also — and this is just my personal opinion — I can **highly** recommend setting up your own `.files` (instead of forking an existing project) and moving along step by step. There is much to be learned and no better feeling than having full control over the things that are happening and being aware where everything is and what exactly it does. But that’s just me. 🙂
+Also — and this is just my personal opinion — I highly recommend setting up your own `.files` (instead of forking an existing project) and moving along step by step. There is much to be learned, and no better feeling than having full control over the things that are happening and being aware of where everything is and what exactly it does. But that’s just me. 🙂
 
 #### Clone with Git
 
