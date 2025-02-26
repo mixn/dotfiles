@@ -17,3 +17,6 @@ alias gpo="gp && go"
 
 # Undo last commit
 alias gundo="git undo"
+
+# Lazygit
+alias lzg="lazygit"

@@ -28,6 +28,7 @@ alias omz="~/.oh-my-zsh"
 alias bin="/usr/local/bin"
 alias svl="sls" # I prefer this over `sls`
 alias ydl="youtube-dl"
+alias lzd="lazydocker"
 alias cat="bat"
 alias code="cursor"
 alias cr="cargo run"
