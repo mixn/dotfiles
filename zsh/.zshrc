@@ -33,3 +33,7 @@ prompt pure
 . ~/.dotfiles/composer/init.zsh
 . ~/.dotfiles/python/init.zsh
 . ~/.dotfiles/pipx/init.zsh
+
+# Hishtory Config:
+export PATH="$PATH:/Users/mixn/.hishtory"
+source /Users/mixn/.hishtory/config.zsh
