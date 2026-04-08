@@ -14,4 +14,6 @@ export LANG='en_US.UTF-8';
 export LC_ALL='en_US.UTF-8';
 
 # Don’t clear the screen after quitting a manual page.
-export MANPAGER='less -X';
+export MANPAGER="less -X";
+
+export PATH="$PATH:$HOME/.local/bin"
