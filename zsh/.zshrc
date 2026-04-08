@@ -1,4 +1,4 @@
-export ZSH=/Users/mixn/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Load Antigen
 source ~/.antigen.zsh
@@ -33,7 +33,6 @@ prompt pure
 . ~/.dotfiles/composer/init.zsh
 . ~/.dotfiles/python/init.zsh
 . ~/.dotfiles/pipx/init.zsh
+. ~/.dotfiles/sdkman/init.zsh
 
-# Hishtory Config:
-export PATH="$PATH:/Users/mixn/.hishtory"
-source /Users/mixn/.hishtory/config.zsh
+. ~/.dotfiles/hishtory/init.zsh

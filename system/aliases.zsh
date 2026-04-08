@@ -30,7 +30,9 @@ alias svl="sls" # I prefer this over `sls`
 alias ydl="youtube-dl"
 alias lzd="lazydocker"
 alias cat="bat"
-alias code="cursor"
+# alias code="cursor"
+alias cop="copilot --allow-all-tools"
+alias cc=" IS_SANDBOX=1 claude --dangerously-skip-permissions"
 alias cr="cargo run"
 alias t="date +%H:%M"
 
@@ -69,6 +71,10 @@ alias copywifipw="wifi-password | pbcopy"
 
 # Re-source .zshrc after changes
 alias rlcli="source $HOME/.zshrc"
+
+# Linux version of OSX pbcopy and pbpaste.
+alias lpbcopy="xsel — clipboard — input"
+alias lpbpaste="xsel — clipboard — output"
 
 # Kill all tmux processes simultaneously, leveraging fkill-cli,
 # was previously using all solutions from https://goo.gl/Lqh51S
