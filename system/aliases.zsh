@@ -32,7 +32,7 @@ alias lzd="lazydocker"
 alias cat="bat"
 # alias code="cursor"
 alias cop="copilot --allow-all-tools"
-alias cc=" IS_SANDBOX=1 claude --dangerously-skip-permissions"
+alias ccc=" IS_SANDBOX=1 claude --dangerously-skip-permissions"
 alias cr="cargo run"
 alias t="date +%H:%M"
 
