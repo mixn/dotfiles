@@ -6,10 +6,10 @@ npm i -g \
   @action-validator/cli \
   @campvanilla/ditto-cli \
   @vue/cli \
-  blitz \
   carbon-now-cli \
+  codeburn \
   credits-cli \
-  ember-cli \
+  ctx7 \
   emoj \
   empty-trash-cli \
   fast-cli \
@@ -24,6 +24,7 @@ npm i -g \
   is-up-cli \
   jsonlint \
   jsvu \
+  jq \
   kill-tabs \
   manage-wifi-cli \
   n \
@@ -33,6 +34,7 @@ npm i -g \
   ntl \
   osx-wifi-cli \
   pkg \
+  @playwright/cli@latest \
   pnpm \
   prisma \
   pure-prompt \
@@ -41,7 +43,6 @@ npm i -g \
   speed-test \
   spot \
   tldr \
-  ttab \
   typescript@next \
   underscore-cli \
   updtr \
