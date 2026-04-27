@@ -4,8 +4,7 @@
     "caveman@caveman": true,
     "compound-engineering@compound-engineering-plugin": true,
     "expo@claude-plugins-official": true,
-    "andrej-karpathy-skills@karpathy-skills": true,
-    "ouroboros@ouroboros": true
+    "andrej-karpathy-skills@karpathy-skills": true
   },
   "extraKnownMarketplaces": {
     "last30days-skill": {
@@ -48,12 +47,6 @@
       "source": {
         "source": "github",
         "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
-      }
-    },
-    "ouroboros": {
-      "source": {
-        "source": "github",
-        "repo": "Q00/ouroboros"
       }
     }
   },
