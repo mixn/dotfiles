@@ -36,6 +36,22 @@ source ~/.dotfiles/rust/install.sh
 source ~/.dotfiles/system/.symlinks
 
 ###############################################################################
+# Agent tooling (Claude Code, Codex, …)                                       #
+###############################################################################
+
+# Idempotent. Bootstrap on first run, just reconcile thereafter.
+if [ ! -f ~/.dotfiles/agents/.bootstrapped ]; then
+  ~/.dotfiles/agents/install.sh --bootstrap --apply
+else
+  ~/.dotfiles/agents/install.sh --apply
+fi
+
+# Pre-commit hook for the dotfiles repo (denies secrets/runtime paths)
+if [ -d ~/.dotfiles/.git/hooks ] && [ ! -L ~/.dotfiles/.git/hooks/pre-commit ]; then
+  ln -sf ~/.dotfiles/agents/pre-commit-hook.sh ~/.dotfiles/.git/hooks/pre-commit
+fi
+
+###############################################################################
 # macOS                                                                    #
 ###############################################################################
 

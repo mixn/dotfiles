@@ -1,0 +1,67 @@
+{
+  "$schema_doc": "Single source of truth for which skills/plugins/rules/MCPs go to which agent tool. install.sh is a thin dispatcher over this file.",
+  "plugins": [
+    {
+      "name": "last30days",
+      "manager": "claude-marketplace",
+      "source": "github:mvanhorn/last30days-skill",
+      "marketplace": "last30days-skill",
+      "tools": ["claude"]
+    },
+    {
+      "name": "caveman",
+      "manager": "claude-marketplace",
+      "source": "github:JuliusBrussee/caveman",
+      "marketplace": "caveman",
+      "tools": ["claude"]
+    },
+    {
+      "name": "compound-engineering",
+      "manager": "claude-marketplace",
+      "source": "github:EveryInc/compound-engineering-plugin",
+      "marketplace": "compound-engineering-plugin",
+      "tools": ["claude"]
+    },
+    {
+      "name": "expo",
+      "manager": "claude-marketplace",
+      "source": "github:expo/skills",
+      "marketplace": "expo-plugins",
+      "tools": ["claude"]
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "manager": "claude-marketplace",
+      "source": "github:forrestchang/andrej-karpathy-skills",
+      "marketplace": "karpathy-skills",
+      "tools": ["claude"]
+    },
+    {
+      "name": "ouroboros",
+      "manager": "claude-marketplace",
+      "source": "github:Q00/ouroboros",
+      "marketplace": "ouroboros",
+      "tools": ["claude"]
+    }
+  ],
+  "skills": [
+    { "name": "bullpen-bracket",  "path": "shared/skills/bullpen-bracket",  "tools": ["claude", "codex"] },
+    { "name": "bullpen-cli",      "path": "shared/skills/bullpen-cli",      "tools": ["claude", "codex"] },
+    { "name": "canvas-design",    "path": "shared/skills/canvas-design",    "tools": ["claude", "codex"] },
+    { "name": "find-docs",        "path": "shared/skills/find-docs",        "tools": ["claude", "codex"] },
+    { "name": "find-skills",      "path": "shared/skills/find-skills",      "tools": ["claude", "codex"] },
+    { "name": "humanizer",        "path": "shared/skills/humanizer",        "tools": ["claude", "codex"] },
+    { "name": "prompt-master",    "path": "shared/skills/prompt-master",    "tools": ["claude", "codex"] }
+  ],
+  "rules": [
+    { "name": "context7", "path": "shared/rules/context7.md", "tools": ["claude"] }
+  ],
+  "commands": [],
+  "mcp": [
+    { "name": "ouroboros", "config": "shared/mcp/ouroboros.json", "tools": ["claude"] }
+  ],
+  "external": [
+    { "name": "ctx7", "manager": "npx", "package": "ctx7@latest" },
+    { "name": "jq",   "manager": "brew", "package": "jq" }
+  ]
+}

@@ -1,0 +1,6 @@
+[submodule "agents/shared/skills/humanizer"]
+	path = agents/shared/skills/humanizer
+	url = https://github.com/blader/humanizer.git
+[submodule "agents/shared/skills/prompt-master"]
+	path = agents/shared/skills/prompt-master
+	url = https://github.com/nidhinjs/prompt-master.git
