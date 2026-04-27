@@ -16,6 +16,11 @@
 
 set -euo pipefail
 
+# NOTE: with `set -e`, every function in this file MUST end with a
+# non-conditional command or an explicit `return 0`. A trailing
+# `[[ -f ... ]] && link ...` returns 1 when the test is false and aborts the
+# whole script. We've hit this twice — don't be the third.
+
 DOTFILES="${DOTFILES:-$HOME/.dotfiles}"
 AGENTS="$DOTFILES/agents"
 MANIFEST="$AGENTS/agents.json"
@@ -115,13 +120,13 @@ link() {
       local ts; ts=$(date +%Y%m%d-%H%M%S)
       local backup_dir="$CLAUDE_HOME/backups/dotfiles-migration/$ts"
       mkdir -p "$backup_dir"
-      mv "$dest" "$backup_dir/$(basename "$dest")"
+      mv -- "$dest" "$backup_dir/$(basename "$dest")"
     fi
   fi
   plan "ln -s $src $dest"
   if [[ $APPLY -eq 1 ]]; then
     ensure_parent "$dest"
-    ln -s "$src" "$dest"
+    ln -sf -- "$src" "$dest"
   fi
 }
 
@@ -157,7 +162,7 @@ bootstrap_claude() {
         plan "move $src -> $dest"
         if [[ $APPLY -eq 1 ]]; then
           ensure_parent "$dest"
-          mv "$src" "$dest"
+          mv -- "$src" "$dest"
         fi
         ;;
     esac
@@ -176,7 +181,7 @@ bootstrap_claude() {
           # move only files, not subdirs we don't expect
           shopt -s nullglob dotglob
           for entry in "$src"/*; do
-            mv "$entry" "$dest/"
+            mv -- "$entry" "$dest/"
           done
           shopt -u nullglob dotglob
           rmdir "$src" 2>/dev/null || true
@@ -191,7 +196,7 @@ bootstrap_claude() {
           for entry in "$src"/*/; do
             local name; name=$(basename "$entry")
             scan_for_secrets "$entry"
-            mv "$entry" "$dest/$name"
+            mv -- "$entry" "$dest/$name"
           done
           shopt -u nullglob
           rmdir "$src" 2>/dev/null || true
@@ -205,7 +210,7 @@ bootstrap_claude() {
           mkdir -p "$dest"
           shopt -s nullglob dotglob
           for entry in "$src"/*; do
-            mv "$entry" "$dest/"
+            mv -- "$entry" "$dest/"
           done
           shopt -u nullglob dotglob
           rmdir "$src" 2>/dev/null || true
@@ -231,7 +236,7 @@ bootstrap_codex() {
     plan "move $src -> $dest"
     if [[ $APPLY -eq 1 ]]; then
       ensure_parent "$dest"
-      mv "$src" "$dest"
+      mv -- "$src" "$dest"
     fi
   done
 }
