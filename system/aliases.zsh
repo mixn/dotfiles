@@ -35,6 +35,7 @@ alias cop="copilot --allow-all-tools"
 alias ccc=" IS_SANDBOX=1 claude --dangerously-skip-permissions"
 alias cr="cargo run"
 alias t="date +%H:%M"
+alias wopen="explorer.exe ."
 
 ###############################################################################
 # Configs                                                                     #
