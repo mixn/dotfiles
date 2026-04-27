@@ -333,21 +333,9 @@ reconcile_plugins() {
         ;;
     esac
   done < <(jq -r '.plugins[]? | "\(.manager)\t\(.name)\t\(.source // "")"' "$MANIFEST")
-
-  # external (npx/brew tools that aren't agent plugins)
-  while IFS=$'\t' read -r mgr name pkg; do
-    case "$mgr" in
-      npx)  c_dim "  external npx: $name (no install needed)" ;;
-      brew)
-        if brew list "$pkg" >/dev/null 2>&1; then
-          c_dim "  external brew: $pkg already installed"
-        else
-          plan "brew install $pkg"
-          run brew install "$pkg"
-        fi
-        ;;
-    esac
-  done < <(jq -r '.external[]? | "\(.manager)\t\(.name)\t\(.package // .name)"' "$MANIFEST")
+  # External CLI tools (jq, npx packages, brew installs) are handled by their
+  # respective dotfiles modules (Brewfile, node/install.sh, pipx/install.sh, …).
+  # No reason to duplicate them here.
 }
 
 # ─── Main ────────────────────────────────────────────────────────────────────

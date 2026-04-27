@@ -50,9 +50,5 @@
     { "name": "context7", "path": "shared/rules/context7.md", "tools": ["claude"] }
   ],
   "commands": [],
-  "mcp": [],
-  "external": [
-    { "name": "ctx7", "manager": "npx", "package": "ctx7@latest" },
-    { "name": "jq",   "manager": "brew", "package": "jq" }
-  ]
+  "mcp": []
 }
