@@ -1,0 +1,32 @@
+# Per-machine escape hatch
+.local/
+*.local
+*.local.*
+
+# Bootstrap marker
+.bootstrapped
+
+# Anything that smells like runtime state — defense in depth
+**/cache/
+**/sessions/
+**/projects/
+**/paste-cache/
+**/file-history/
+**/telemetry/
+**/backups/
+**/tasks/
+**/shell-snapshots/
+**/session-env/
+**/ide/
+**/downloads/
+**/plans/
+**/history.jsonl
+
+# Anything that smells like a secret
+**/.env*
+**/*token*
+**/*secret*
+**/*credential*
+**/*-auth*
+**/*.key
+**/*.pem
