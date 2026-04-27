@@ -69,6 +69,7 @@ ALLOW_CLAUDE_DIRS=(
 # managed by external installers (e.g. ouroboros) and is intentionally NOT touched.
 ALLOW_CODEX_FILES=(
   "AGENTS.md"
+  "config.toml"
 )
 
 # Keys preserved when sanitizing settings.json. Anything else is dropped.
@@ -244,7 +245,8 @@ link_claude_command(){ link "$AGENTS/$2" "$CLAUDE_HOME/commands/$(basename "$2")
 
 reconcile_top_level_codex_files() {
   [[ -d "$CODEX_HOME" ]] || return 0
-  [[ -f "$AGENTS/codex/AGENTS.md" ]] && link "$AGENTS/codex/AGENTS.md" "$CODEX_HOME/AGENTS.md"
+  [[ -f "$AGENTS/codex/AGENTS.md" ]]   && link "$AGENTS/codex/AGENTS.md"   "$CODEX_HOME/AGENTS.md"
+  [[ -f "$AGENTS/codex/config.toml" ]] && link "$AGENTS/codex/config.toml" "$CODEX_HOME/config.toml"
   return 0
 }
 

@@ -35,13 +35,6 @@
       "source": "github:forrestchang/andrej-karpathy-skills",
       "marketplace": "karpathy-skills",
       "tools": ["claude"]
-    },
-    {
-      "name": "ouroboros",
-      "manager": "claude-marketplace",
-      "source": "github:Q00/ouroboros",
-      "marketplace": "ouroboros",
-      "tools": ["claude"]
     }
   ],
   "skills": [
@@ -57,9 +50,7 @@
     { "name": "context7", "path": "shared/rules/context7.md", "tools": ["claude"] }
   ],
   "commands": [],
-  "mcp": [
-    { "name": "ouroboros", "config": "shared/mcp/ouroboros.json", "tools": ["claude"] }
-  ],
+  "mcp": [],
   "external": [
     { "name": "ctx7", "manager": "npx", "package": "ctx7@latest" },
     { "name": "jq",   "manager": "brew", "package": "jq" }
