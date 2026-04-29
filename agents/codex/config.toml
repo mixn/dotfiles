@@ -1,2 +1,20 @@
 [features]
 codex_hooks = true
+
+[projects."/root/Projects"]
+trust_level = "trusted"
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "model-name", "project-root", "git-branch", "context-remaining", "context-used", "five-hour-limit", "weekly-limit"]
+
+[tui.model_availability_nux]
+"gpt-5.5" = 2
+
+[marketplaces.compound-engineering-plugin]
+last_updated = "2026-04-29T10:48:31Z"
+last_revision = "e5b397c9d1883354f03e338dd00f98be3da39f9f"
+source_type = "git"
+source = "https://github.com/EveryInc/compound-engineering-plugin.git"
+
+[plugins."compound-engineering@compound-engineering-plugin"]
+enabled = true
