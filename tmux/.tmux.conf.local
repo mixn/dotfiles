@@ -394,6 +394,8 @@ tmux_conf_copy_to_os_clipboard=false
 
 # tmux-file-picker (https://github.com/raine/tmux-file-picker)
 # fzf popup that pastes selected file path(s) into current pane
+# popups inherit tmux server env, not shell — set fzf opts here so they apply
+set-environment -g FZF_DEFAULT_OPTS '--bind=ctrl-a:toggle-all,ctrl-x:deselect-all'
 bind C-f display-popup -E -w 80% -h 80% "tmux-file-picker"
 bind C-g display-popup -E -w 80% -h 80% "tmux-file-picker -g"
 bind C-d display-popup -E -w 80% -h 80% "tmux-file-picker --directories"
