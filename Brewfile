@@ -57,7 +57,7 @@ brew 'wget'
 brew 'wifi-password'
 brew 'xsv'
 brew 'youtube-dl'
-brew 'z'
+brew 'zoxide'
 brew 'zsh-completions'
 brew 'zsh'
 
