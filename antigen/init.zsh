@@ -1,5 +1,4 @@
 antigen bundle Aloxaf/fzf-tab
-antigen bundle agkozak/zsh-z
 antigen bundle djui/alias-tips
 antigen bundle git
 antigen bundle git-extras
