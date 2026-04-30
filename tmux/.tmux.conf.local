@@ -392,6 +392,12 @@ tmux_conf_copy_to_os_clipboard=false
 # move status line to top
 #set -g status-position top
 
+# tmux-file-picker (https://github.com/raine/tmux-file-picker)
+# fzf popup that pastes selected file path(s) into current pane
+bind C-f display-popup -E -w 80% -h 80% "tmux-file-picker"
+bind C-g display-popup -E -w 80% -h 80% "tmux-file-picker -g"
+bind C-d display-popup -E -w 80% -h 80% "tmux-file-picker --directories"
+
 
 # -- tpm -----------------------------------------------------------------------
 
