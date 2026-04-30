@@ -127,3 +127,9 @@ deletescreenshots() {
 clearclipboard() {
 	pbcopy </dev/null
 }
+
+# `lk` opens walk (https://github.com/antonmedv/walk) and cd's into the
+# selected directory on quit. Pass args through (e.g. `lk ~/Projects`).
+lk() {
+	cd "$(walk "$@")"
+}
