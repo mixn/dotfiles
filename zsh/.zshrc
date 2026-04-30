@@ -21,6 +21,7 @@ prompt pure
 . ~/.dotfiles/node/init.zsh
 . ~/.dotfiles/system/init.zsh
 . ~/.dotfiles/git/init.zsh
+. ~/.dotfiles/fzf/init.zsh
 . ~/.dotfiles/nvm/init.zsh
 . ~/.dotfiles/pnpm/init.zsh
 . ~/.dotfiles/bun/init.zsh
