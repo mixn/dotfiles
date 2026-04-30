@@ -26,6 +26,7 @@ source ~/.dotfiles/nvm/install.sh
 source ~/.dotfiles/oh-my-zsh/install.sh
 source ~/.dotfiles/node/install.sh
 source ~/.dotfiles/tpm/install.sh
+source ~/.dotfiles/tmux/install.sh
 source ~/.dotfiles/composer/install.sh
 source ~/.dotfiles/rust/install.sh
 
