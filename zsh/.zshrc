@@ -37,3 +37,5 @@ prompt pure
 . ~/.dotfiles/sdkman/init.zsh
 
 . ~/.dotfiles/hishtory/init.zsh
+# Homebrew (Linux only — no-op on macOS)
+[[ "$(uname)" == "Linux" && -x /home/linuxbrew/.linuxbrew/bin/brew ]] && eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
