@@ -400,6 +400,11 @@ bind C-f display-popup -E -w 80% -h 80% "tmux-file-picker"
 bind C-g display-popup -E -w 80% -h 80% "tmux-file-picker -g"
 bind C-d display-popup -E -w 80% -h 80% "tmux-file-picker --directories"
 
+# workmux (https://github.com/raine/workmux)
+# Parallel agent worktrees orchestrated through tmux windows.
+bind C-w display-popup -E -h 80% -w 100 "workmux dashboard"
+bind C-t run-shell "workmux sidebar"
+
 
 # -- tpm -----------------------------------------------------------------------
 
