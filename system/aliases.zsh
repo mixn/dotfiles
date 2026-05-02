@@ -149,3 +149,6 @@ alias pumpitup="osascript -e 'set volume output volume 100'"
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# workmux shorthand
+alias wm="workmux"
