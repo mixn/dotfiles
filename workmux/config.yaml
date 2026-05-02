@@ -1,10 +1,7 @@
 nerdfont: true
 
-# Pane layout for new worktree windows.
-# Top: agent (claude) — focused. Bottom: blank shell for ad-hoc commands.
+# Pane layout for new worktree windows. <agent> runs the configured agent
+# (default: claude). Required when using `workmux add -p "<prompt>"`.
 panes:
   - command: <agent>
     focus: true
-  - split: horizontal
-    size: 30
-    command: clear
