@@ -28,6 +28,11 @@ mkdir $HOME/.vim/undo
 rm -rf $HOME/.hyper.js
 ln -s -f $HOME/.dotfiles/hyper/.hyper.js $HOME/.hyper.js
 
+# workmux
+mkdir -p $HOME/.config/workmux
+rm -rf $HOME/.config/workmux/config.yaml
+ln -s $HOME/.dotfiles/workmux/config.yaml $HOME/.config/workmux/config.yaml
+
 # Spectacle.app
 cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/spectacle.json 2>/dev/null
 
