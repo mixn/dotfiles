@@ -1,0 +1,10 @@
+nerdfont: true
+
+# Pane layout for new worktree windows.
+# Top: agent (claude) — focused. Bottom: blank shell for ad-hoc commands.
+panes:
+  - command: <agent>
+    focus: true
+  - split: horizontal
+    size: 30
+    command: clear
