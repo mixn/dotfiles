@@ -28,6 +28,7 @@ prompt pure
 . ~/.dotfiles/serverless/init.zsh
 . ~/.dotfiles/thefuck/init.zsh
 . ~/.dotfiles/zoxide/init.zsh
+. ~/.dotfiles/workmux/init.zsh
 . ~/.dotfiles/qfc/init.zsh
 . ~/.dotfiles/editorconfig/init.zsh
 . ~/.dotfiles/rust/init.zsh
