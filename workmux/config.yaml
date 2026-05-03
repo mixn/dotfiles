@@ -1,5 +1,9 @@
 nerdfont: true
 
+agents:
+  claude: 'claude --dangerously-skip-permissions'
+  codex: 'codex --yolo'
+
 # Pane layout for new worktree windows. <agent> runs the configured agent
 # (default: claude). Required when using `workmux add -p "<prompt>"`.
 panes:
