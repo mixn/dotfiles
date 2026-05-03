@@ -4,4 +4,4 @@
 # Usage in tmux.conf: #(/path/to/agent-usage-status.sh claude)
 
 set -e
-agent-usage "$@" --compact | sed 's/ *#\[[^]]*\]│ *$//'
+agent-usage "$@" --tmux | sed 's/ *#\[[^]]*\]│ *$//'
