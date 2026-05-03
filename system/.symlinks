@@ -33,6 +33,11 @@ mkdir -p $HOME/.config/workmux
 rm -rf $HOME/.config/workmux/config.yaml
 ln -s $HOME/.dotfiles/workmux/config.yaml $HOME/.config/workmux/config.yaml
 
+# ghostty (XDG path; ghostty also reads ~/Library/Application Support/com.mitchellh.ghostty/config)
+mkdir -p $HOME/.config/ghostty
+rm -rf $HOME/.config/ghostty/config
+ln -s $HOME/.dotfiles/ghostty/config $HOME/.config/ghostty/config
+
 # Spectacle.app
 cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/spectacle.json 2>/dev/null
 
