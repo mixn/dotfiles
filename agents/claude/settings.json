@@ -1,65 +1,109 @@
 {
   "enabledPlugins": {
-    "last30days@last30days-skill": true,
+    "andrej-karpathy-skills@karpathy-skills": true,
     "caveman@caveman": true,
     "compound-engineering@compound-engineering-plugin": true,
     "expo@claude-plugins-official": true,
-    "andrej-karpathy-skills@karpathy-skills": true
+    "last30days@last30days-skill": true,
+    "claude-mem@thedotmack": true
   },
   "extraKnownMarketplaces": {
-    "last30days-skill": {
-      "source": {
-        "source": "github",
-        "repo": "mvanhorn/last30days-skill"
-      }
-    },
     "addy-agent-skills": {
       "source": {
-        "source": "github",
-        "repo": "addyosmani/agent-skills"
+        "repo": "addyosmani/agent-skills",
+        "source": "github"
       }
     },
     "caveman": {
       "source": {
-        "source": "github",
-        "repo": "JuliusBrussee/caveman"
+        "repo": "JuliusBrussee/caveman",
+        "source": "github"
       }
     },
     "compound-engineering-plugin": {
       "source": {
-        "source": "github",
-        "repo": "EveryInc/compound-engineering-plugin"
+        "repo": "EveryInc/compound-engineering-plugin",
+        "source": "github"
       }
     },
     "expo-plugins": {
       "source": {
-        "source": "github",
-        "repo": "expo/skills"
+        "repo": "expo/skills",
+        "source": "github"
       }
     },
     "karpathy-skills": {
       "source": {
-        "source": "github",
-        "repo": "forrestchang/andrej-karpathy-skills"
+        "repo": "forrestchang/andrej-karpathy-skills",
+        "source": "github"
+      }
+    },
+    "last30days-skill": {
+      "source": {
+        "repo": "mvanhorn/last30days-skill",
+        "source": "github"
       }
     },
     "ui-ux-pro-max-skill": {
       "source": {
-        "source": "github",
-        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "source": "github"
       }
     }
   },
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "command": "workmux set-window-status waiting",
+            "type": "command"
+          }
+        ],
+        "matcher": "permission_prompt|elicitation_dialog"
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "command": "workmux set-window-status working",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "command": "workmux set-window-status done",
+            "type": "command"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "command": "workmux set-window-status working",
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  },
+  "skipAutoPermissionPrompt": true,
+  "skipDangerousModePermissionPrompt": true,
+  "statusLine": {
+    "command": "bash \"$HOME/.claude/statusline.sh\"",
+    "type": "command"
+  },
+  "theme": "dark-ansi",
   "voice": {
     "enabled": true,
     "mode": "hold"
   },
-  "skipDangerousModePermissionPrompt": true,
-  "theme": "dark-ansi",
-  "voiceEnabled": true,
-  "skipAutoPermissionPrompt": true,
-  "statusLine": {
-    "type": "command",
-    "command": "bash \"$HOME/.claude/statusline.sh\""
-  }
+  "voiceEnabled": true
 }
