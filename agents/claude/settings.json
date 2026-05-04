@@ -1,74 +1,22 @@
 {
-  "enabledPlugins": {
-    "andrej-karpathy-skills@karpathy-skills": true,
-    "caveman@caveman": true,
-    "compound-engineering@compound-engineering-plugin": true,
-    "expo@claude-plugins-official": true,
-    "last30days@last30days-skill": true,
-    "claude-mem@thedotmack": true
-  },
-  "extraKnownMarketplaces": {
-    "addy-agent-skills": {
-      "source": {
-        "repo": "addyosmani/agent-skills",
-        "source": "github"
-      }
-    },
-    "caveman": {
-      "source": {
-        "repo": "JuliusBrussee/caveman",
-        "source": "github"
-      }
-    },
-    "compound-engineering-plugin": {
-      "source": {
-        "repo": "EveryInc/compound-engineering-plugin",
-        "source": "github"
-      }
-    },
-    "expo-plugins": {
-      "source": {
-        "repo": "expo/skills",
-        "source": "github"
-      }
-    },
-    "karpathy-skills": {
-      "source": {
-        "repo": "forrestchang/andrej-karpathy-skills",
-        "source": "github"
-      }
-    },
-    "last30days-skill": {
-      "source": {
-        "repo": "mvanhorn/last30days-skill",
-        "source": "github"
-      }
-    },
-    "ui-ux-pro-max-skill": {
-      "source": {
-        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-        "source": "github"
-      }
-    }
-  },
   "hooks": {
     "Notification": [
       {
+        "matcher": "permission_prompt|elicitation_dialog",
         "hooks": [
           {
-            "command": "workmux set-window-status waiting",
-            "type": "command"
+            "type": "command",
+            "command": "workmux set-window-status waiting"
           }
-        ],
-        "matcher": "permission_prompt|elicitation_dialog"
+        ]
       }
     ],
     "PostToolUse": [
       {
         "hooks": [
           {
-            "command": "workmux set-window-status working",
-            "type": "command"
+            "type": "command",
+            "command": "workmux set-window-status working"
           }
         ]
       }
@@ -77,8 +25,8 @@
       {
         "hooks": [
           {
-            "command": "workmux set-window-status done",
-            "type": "command"
+            "type": "command",
+            "command": "workmux set-window-status done"
           }
         ]
       }
@@ -87,23 +35,82 @@
       {
         "hooks": [
           {
-            "command": "workmux set-window-status working",
-            "type": "command"
+            "type": "command",
+            "command": "workmux set-window-status working"
           }
         ]
       }
     ]
   },
-  "skipAutoPermissionPrompt": true,
-  "skipDangerousModePermissionPrompt": true,
   "statusLine": {
-    "command": "bash \"$HOME/.claude/statusline.sh\"",
-    "type": "command"
+    "type": "command",
+    "command": "bash \"$HOME/.claude/statusline.sh\""
   },
-  "theme": "dark-ansi",
+  "enabledPlugins": {
+    "andrej-karpathy-skills@karpathy-skills": true,
+    "caveman@caveman": true,
+    "compound-engineering@compound-engineering-plugin": true,
+    "expo@claude-plugins-official": true,
+    "last30days@last30days-skill": true,
+    "claude-mem@thedotmack": true,
+    "watch@claude-video": true
+  },
+  "extraKnownMarketplaces": {
+    "addy-agent-skills": {
+      "source": {
+        "source": "github",
+        "repo": "addyosmani/agent-skills"
+      }
+    },
+    "caveman": {
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    },
+    "compound-engineering-plugin": {
+      "source": {
+        "source": "github",
+        "repo": "EveryInc/compound-engineering-plugin"
+      }
+    },
+    "expo-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "expo/skills"
+      }
+    },
+    "karpathy-skills": {
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
+      }
+    },
+    "last30days-skill": {
+      "source": {
+        "source": "github",
+        "repo": "mvanhorn/last30days-skill"
+      }
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
+    },
+    "claude-video": {
+      "source": {
+        "source": "github",
+        "repo": "bradautomates/claude-video"
+      }
+    }
+  },
   "voice": {
     "enabled": true,
     "mode": "hold"
   },
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark-ansi",
+  "skipAutoPermissionPrompt": true,
   "voiceEnabled": true
 }
