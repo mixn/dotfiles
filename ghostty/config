@@ -29,3 +29,6 @@ font-family = IBM Plex Mono
 font-family-bold = IBM Plex Mono Bold
 font-family-italic = IBM Plex Mono Italic
 font-family-bold-italic = IBM Plex Mono Bold Italic
+window-padding-x = 14
+window-padding-y = 0
+window-padding-balance = true
