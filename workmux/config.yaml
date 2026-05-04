@@ -1,7 +1,7 @@
 nerdfont: true
 
 agents:
-  claude: 'claude --dangerously-skip-permissions'
+  claude: 'IS_SANDBOX=1 claude --dangerously-skip-permissions'
   codex: 'codex --yolo'
 
 # Pane layout for new worktree windows. <agent> runs the configured agent

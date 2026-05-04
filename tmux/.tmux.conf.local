@@ -402,8 +402,9 @@ bind C-d display-popup -E -w 80% -h 80% "tmux-file-picker --directories"
 
 # workmux (https://github.com/raine/workmux)
 # Parallel agent worktrees orchestrated through tmux windows.
-bind C-w display-popup -E -h 80% -w 100 "workmux dashboard"
-bind C-t run-shell "workmux sidebar"
+# zsh -ic: load .zshrc so brew PATH is set (needed on Linux where run-shell skips it)
+bind C-w display-popup -E -h 80% -w 100 "zsh -ic 'workmux dashboard'"
+bind C-t run-shell "zsh -ic 'workmux sidebar'"
 
 
 # -- tpm -----------------------------------------------------------------------
