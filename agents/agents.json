@@ -6,48 +6,139 @@
       "manager": "claude-marketplace",
       "source": "github:mvanhorn/last30days-skill",
       "marketplace": "last30days-skill",
-      "tools": ["claude"]
+      "tools": [
+        "claude"
+      ]
     },
     {
       "name": "caveman",
       "manager": "claude-marketplace",
       "source": "github:JuliusBrussee/caveman",
       "marketplace": "caveman",
-      "tools": ["claude"]
+      "tools": [
+        "claude"
+      ]
     },
     {
       "name": "compound-engineering",
       "manager": "claude-marketplace",
       "source": "github:EveryInc/compound-engineering-plugin",
       "marketplace": "compound-engineering-plugin",
-      "tools": ["claude"]
+      "tools": [
+        "claude"
+      ]
     },
     {
       "name": "expo",
       "manager": "claude-marketplace",
       "source": "github:expo/skills",
       "marketplace": "expo-plugins",
-      "tools": ["claude"]
+      "tools": [
+        "claude"
+      ]
     },
     {
       "name": "andrej-karpathy-skills",
       "manager": "claude-marketplace",
       "source": "github:forrestchang/andrej-karpathy-skills",
       "marketplace": "karpathy-skills",
-      "tools": ["claude"]
+      "tools": [
+        "claude"
+      ]
+    },
+    {
+      "name": "claude-mem",
+      "manager": "claude-marketplace",
+      "source": "",
+      "marketplace": "thedotmack",
+      "tools": [
+        "claude"
+      ]
+    },
+    {
+      "name": "watch",
+      "manager": "claude-marketplace",
+      "source": "github:bradautomates/claude-video",
+      "marketplace": "claude-video",
+      "tools": [
+        "claude"
+      ]
     }
   ],
   "skills": [
-    { "name": "bullpen-bracket",  "path": "shared/skills/bullpen-bracket",  "tools": ["claude", "codex"] },
-    { "name": "bullpen-cli",      "path": "shared/skills/bullpen-cli",      "tools": ["claude", "codex"] },
-    { "name": "canvas-design",    "path": "shared/skills/canvas-design",    "tools": ["claude", "codex"] },
-    { "name": "find-docs",        "path": "shared/skills/find-docs",        "tools": ["claude", "codex"] },
-    { "name": "find-skills",      "path": "shared/skills/find-skills",      "tools": ["claude", "codex"] },
-    { "name": "humanizer",        "path": "shared/skills/humanizer",        "tools": ["claude", "codex"] },
-    { "name": "prompt-master",    "path": "shared/skills/prompt-master",    "tools": ["claude", "codex"] }
+    {
+      "name": "bullpen-bracket",
+      "path": "shared/skills/bullpen-bracket",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "bullpen-cli",
+      "path": "shared/skills/bullpen-cli",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "canvas-design",
+      "path": "shared/skills/canvas-design",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "find-docs",
+      "path": "shared/skills/find-docs",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "find-skills",
+      "path": "shared/skills/find-skills",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "humanizer",
+      "path": "shared/skills/humanizer",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "prompt-master",
+      "path": "shared/skills/prompt-master",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    },
+    {
+      "name": "mixn-voice",
+      "path": "shared/skills/mixn-voice",
+      "tools": [
+        "claude",
+        "codex"
+      ]
+    }
   ],
   "rules": [
-    { "name": "context7", "path": "shared/rules/context7.md", "tools": ["claude"] }
+    {
+      "name": "context7",
+      "path": "shared/rules/context7.md",
+      "tools": [
+        "claude"
+      ]
+    }
   ],
   "commands": [],
   "mcp": []
