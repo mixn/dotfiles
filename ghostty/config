@@ -24,8 +24,9 @@ palette = 12=#9ccfd8
 palette = 13=#c4a7e7
 palette = 14=#ebbcba
 palette = 15=#e0def4
-font-size = 14
+font-size = 16
 font-family = IBM Plex Mono
-window-padding-x = 14
+window-padding-x = 0
 window-padding-y = 0
 window-padding-balance = true
+config-file = ~/.config/ghostty/config.local
