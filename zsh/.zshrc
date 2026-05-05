@@ -1,5 +1,9 @@
 export ZSH=~/.oh-my-zsh
 
+# Truecolor support — Windows Terminal + WSL doesn't propagate this var by default,
+# so tmux falls back to 256-color and pane bg hex like #191724 renders gray.
+export COLORTERM=truecolor
+
 # Load Antigen
 source ~/.antigen.zsh
 . ~/.dotfiles/antigen/init.zsh
