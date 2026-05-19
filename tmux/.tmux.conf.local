@@ -123,7 +123,9 @@ tmux_conf_theme_colour_17="colour0"
 
 # window style
 tmux_conf_theme_window_fg="default"
-tmux_conf_theme_window_bg="#191724"
+# inherit ghostty bg exactly; theme-driven via @ghostty/config
+tmux_conf_theme_window_bg="default"
+# tmux_conf_theme_window_bg="#191724"  # prev: Rose Pine base
 
 # highlight focused pane, possible values are:
 #   - true
@@ -131,7 +133,9 @@ tmux_conf_theme_window_bg="#191724"
 tmux_conf_theme_highlight_focused_pane=true
 
 # focused pane colours:
-tmux_conf_theme_focused_pane_bg="#1f1d2e"
+# no bg shift; pane differentiation comes from active border (colour4, theme-driven)
+tmux_conf_theme_focused_pane_bg="#1b1b1b"
+# tmux_conf_theme_focused_pane_bg="#1f1d2e"  # prev: Rose Pine surface
 
 # pane border style, possible values are:
 #   - thin (default)
@@ -368,11 +372,12 @@ tmux_conf_copy_to_os_clipboard=false
 
 # this is the place to override or undo settings
 
-# pane titles in border (like the screenshot)
-# - active pane: bold rose; inactive: muted
+# pane titles in border
+# - active pane: bold fg (colour7); inactive: muted (colour8)
+# - palette indices follow ghostty theme via @ghostty/config
 # - shows custom title (set via `tmux select-pane -T name`) if provided, else current command
 set -g pane-border-status top
-set -g pane-border-format " #[#{?pane_active,fg=#ebbcba bold,fg=#908caa}]#P: #{?#{==:#{pane_title},#H},#{pane_current_command},#{pane_title}}#[default] "
+set -g pane-border-format " #[#{?pane_active,fg=colour7 bold,fg=colour8}]#P: #{?#{==:#{pane_title},#H},#{pane_current_command},#{pane_title}}#[default] "
 
 
 # increase history size

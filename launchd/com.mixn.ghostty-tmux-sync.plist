@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.mixn.ghostty-tmux-sync</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/mixn/.dotfiles/tmux/sync-active-pane-bg.sh</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/mixn/.dotfiles/ghostty/config</string>
+    </array>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>StandardOutPath</key>
+    <string>/Users/mixn/.dotfiles/tmux/sync-active-pane-bg.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/mixn/.dotfiles/tmux/sync-active-pane-bg.log</string>
+</dict>
+</plist>
