@@ -413,6 +413,10 @@ bind C-d display-popup -E -w 80% -h 80% "tmux-file-picker --directories"
 bind C-w display-popup -E -h 80% -w 100 "zsh -ic 'workmux dashboard'"
 bind C-t run-shell "zsh -ic 'workmux sidebar'"
 
+# tmux-snaglord (https://github.com/raine/tmux-snaglord)
+# scrollback as searchable command+output blocks; great for piping into LLM panes
+bind C-y display-popup -E -w 80% -h 80% "tmux-snaglord"
+
 
 # -- tpm -----------------------------------------------------------------------
 
