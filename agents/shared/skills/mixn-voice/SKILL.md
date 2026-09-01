@@ -1,15 +1,14 @@
 ---
 name: mixn:voice
 description: |
-  Apply Miloš Sutanovac's personal writing voice to any text. Use when writing
-  or rewriting blog posts, technical articles, Confluence pages, post-mortems,
-  team updates, or any written content that should sound like Miloš wrote it.
-  Invoke whenever the user says "in my voice", "make this sound like me",
-  "rewrite this", "write a blog post about X", or whenever producing
-  internal Confluence posts or technical write-ups for Miloš. Builds on
-  humanizr patterns first, then shapes the result to his distinct voice:
-  casually authoritative, self-deprecating, practically opinionated,
-  technically precise, and collaborative.
+  OPT-IN ONLY. Do not load automatically. Use only when the user explicitly
+  invokes /mixn:voice or names this skill. Do not trigger on generic writing
+  requests like "rewrite this" or "write a blog post about X". The always-on
+  unslop skill covers baseline AI-tell removal for those.
+  What it does when invoked: rewrites text in Milos Sutanovac's personal
+  voice for blog posts, technical articles, Confluence pages, post-mortems,
+  and team updates. Casually authoritative, self-deprecating, practically
+  opinionated, technically precise, collaborative.
 ---
 
 # mixn:voice — Write Like Miloš

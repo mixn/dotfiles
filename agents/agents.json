@@ -112,6 +112,19 @@
       "tools": [
         "claude",
         "codex"
+      ],
+      "vendored": {
+        "source": "https://github.com/blader/humanizer.git",
+        "ref": "8b3a178",
+        "note": "was a submodule; vendored so the opt-in description can live in this repo. Update by hand: fetch upstream SKILL.md, re-apply the OPT-IN ONLY description block."
+      }
+    },
+    {
+      "name": "mixn-voice",
+      "path": "shared/skills/mixn-voice",
+      "tools": [
+        "claude",
+        "codex"
       ]
     },
     {
@@ -123,18 +136,31 @@
       ]
     },
     {
-      "name": "mixn-voice",
-      "path": "shared/skills/mixn-voice",
+      "name": "unslop",
+      "path": "shared/skills/unslop",
       "tools": [
         "claude",
         "codex"
-      ]
+      ],
+      "vendored": {
+        "source": "https://github.com/cursor/plugins",
+        "path": "pstack/skills/unslop/SKILL.md",
+        "ref": "99559f2",
+        "note": "kept byte-identical to upstream; always-on behavior lives in shared/rules/unslop.md."
+      }
     }
   ],
   "rules": [
     {
       "name": "context7",
       "path": "shared/rules/context7.md",
+      "tools": [
+        "claude"
+      ]
+    },
+    {
+      "name": "unslop",
+      "path": "shared/rules/unslop.md",
       "tools": [
         "claude"
       ]
