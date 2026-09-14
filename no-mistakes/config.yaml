@@ -1,0 +1,50 @@
+# no-mistakes global config — symlinked to ~/.no-mistakes/config.yaml
+# Reference: https://kunchenguid.github.io/no-mistakes/reference/global-config/
+#
+# This file is machine-level. Per-repo gate config (commands.lint/test/format,
+# review/document instructions, agent overrides) lives in each repo's own
+# .no-mistakes.yaml and is read from that repo's default branch — not from here.
+
+# Pipeline agent, in fallback order. Fallback only kicks in when an agent
+# process fails to start or exits with an error; findings never trigger it.
+agent:
+  - claude
+  - codex
+
+# Extra flags per native agent. -p/--output-format/--resume/--session-id and
+# friends are reserved (config load fails if set) — no-mistakes drives those.
+# agent_args_override:
+#   claude:
+#     - --model
+#     - sonnet
+
+log_level: info
+
+# One durable fixer session per run where the agent supports native resume.
+# Review turns always run cold regardless, so a rereview never resumes the
+# session that prescribed the fixes it is certifying.
+session_reuse: true
+
+# Follow-up auto-fix attempts per step. review: 0 means every review finding
+# parks at an approval gate — mechanical fixes land on their own, anything
+# touching intent stays a human call.
+auto_fix:
+  rebase: 3
+  review: 0
+  test: 3
+  document: 3
+  lint: 3
+  ci: 3
+
+# Never spend someone else's CI minutes re-running provider-cancelled checks.
+ci:
+  rerun_transient: 0
+
+# Conventional-commits subject for pipeline fix commits (default is
+# `no-mistakes({{.Step}}): {{.Summary}}`, which isn't a valid CC type).
+commit:
+  fix_message: "chore(no-mistakes-{{.Step}}): {{.Summary}}"
+
+# intent.* defaults to enabled: it reads recent local agent transcripts to
+# recover what the change was for and feeds that to the pipeline + PR body.
+# Disable with `intent: {enabled: false}` if transcript reading isn't wanted.

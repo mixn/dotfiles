@@ -66,6 +66,12 @@ ALLOW_CLAUDE_DIRS=(
   "skills"   # only user-authored; plugin skills live under plugins/cache/
   "agents"
 )
+# Skills owned by an external installer that regenerates them per binary version.
+# Never vendor these into the repo — the copy would silently go stale against the
+# tool that wrote it. `no-mistakes init` (re)writes ~/.claude/skills/no-mistakes.
+DENY_CLAUDE_SKILLS=(
+  "no-mistakes"
+)
 # Note: ~/.claude/hooks/ NOT auto-migrated — plugins write runtime workers there
 # (e.g. ouroboros's gsd-check-update-worker.js). Author hooks manually in
 # agents/claude/hooks/ and they will be symlinked in.
@@ -195,6 +201,14 @@ bootstrap_claude() {
           shopt -s nullglob
           for entry in "$src"/*/; do
             local name; name=$(basename "$entry")
+            local denied=0 deny
+            for deny in "${DENY_CLAUDE_SKILLS[@]}"; do
+              [[ "$name" == "$deny" ]] && { denied=1; break; }
+            done
+            if [[ $denied -eq 1 ]]; then
+              c_dim "  skip external-owned skill: $name"
+              continue
+            fi
             scan_for_secrets "$entry"
             mv -- "$entry" "$dest/$name"
           done

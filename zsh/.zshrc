@@ -40,6 +40,7 @@ prompt pure
 . ~/.dotfiles/python/init.zsh
 . ~/.dotfiles/pipx/init.zsh
 . ~/.dotfiles/sdkman/init.zsh
+. ~/.dotfiles/no-mistakes/init.zsh
 
 . ~/.dotfiles/hishtory/init.zsh
 # Homebrew (Linux only — no-op on macOS)

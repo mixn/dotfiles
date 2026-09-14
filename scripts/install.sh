@@ -29,6 +29,7 @@ source ~/.dotfiles/tpm/install.sh
 source ~/.dotfiles/tmux/install.sh
 source ~/.dotfiles/composer/install.sh
 source ~/.dotfiles/rust/install.sh
+source ~/.dotfiles/no-mistakes/install.sh
 
 ###############################################################################
 # Symlinks                                                                    #
