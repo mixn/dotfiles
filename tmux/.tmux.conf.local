@@ -133,8 +133,14 @@ tmux_conf_theme_window_bg="default"
 tmux_conf_theme_highlight_focused_pane=true
 
 # focused pane colours:
-# no bg shift; pane differentiation comes from active border (colour4, theme-driven)
-tmux_conf_theme_focused_pane_bg="#1b1b1b"
+# active pane sits a touch DARKER than ghostty's bg, same hue. Value is
+# re-derived from the live ghostty bg by tmux/sync-active-pane-bg.sh
+# (DARKEN_PCT there is the knob: bigger = more contrast).
+tmux_conf_theme_focused_pane_bg="#14121d"  # ghostty bg #191724 darkened 18%
+# tmux_conf_theme_focused_pane_bg="#161420"  # prev: darkened 12%, wanted a touch more
+# tmux_conf_theme_focused_pane_bg="#0e0e0e"  # prev: flat -8/channel, went gray and too heavy
+# tmux_conf_theme_focused_pane_bg="#131313"  # prev: flat -3/channel, gray but too close to read
+# tmux_conf_theme_focused_pane_bg="#1b1b1b"  # prev: ghostty bg +5/channel (invisible)
 # tmux_conf_theme_focused_pane_bg="#1f1d2e"  # prev: Rose Pine surface
 
 # pane border style, possible values are:
