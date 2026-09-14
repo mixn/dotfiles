@@ -2,7 +2,7 @@
 
 theme = Carbonfox
 cursor-style = bar
-font-size = 16
+font-size = 10
 font-family = IBM Plex Mono
 window-padding-x = 0
 window-padding-y = 0
