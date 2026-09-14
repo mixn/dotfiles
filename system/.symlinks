@@ -38,6 +38,16 @@ mkdir -p $HOME/.config/ghostty
 rm -rf $HOME/.config/ghostty/config
 ln -s $HOME/.dotfiles/ghostty/config $HOME/.config/ghostty/config
 
+# caveman (plugin reads ~/.config/caveman/config.json; defaultMode "off" keeps
+# caveman opt-in via /caveman instead of activating on every SessionStart)
+mkdir -p $HOME/.config/caveman
+rm -rf $HOME/.config/caveman/config.json
+ln -s $HOME/.dotfiles/caveman/config.json $HOME/.config/caveman/config.json
+
+# no-mistakes — ~/.no-mistakes/config.yaml is linked by no-mistakes/install.sh
+# instead of here, because it has to happen after the binary install creates
+# ~/.no-mistakes and before the daemon restarts.
+
 # Spectacle.app
 cp -r ~/.dotfiles/init/spectacle.json ~/Library/Application\ Support/Spectacle/spectacle.json 2>/dev/null
 
