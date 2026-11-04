@@ -8,7 +8,7 @@ fi
 (
   echo
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"'
-) >>/Users/mixn/.zprofile
+) >>"$HOME/.zprofile"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Update Homebrew recipes

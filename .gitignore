@@ -2,3 +2,4 @@
 extra.zsh
 agents/.skill-lock.json
 tmux/sync-active-pane-bg.log
+*.zwc
