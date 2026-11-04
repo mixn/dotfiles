@@ -49,7 +49,6 @@
   },
   "enabledPlugins": {
     "andrej-karpathy-skills@karpathy-skills": true,
-    "caveman@caveman": true,
     "compound-engineering@compound-engineering-plugin": true,
     "expo@claude-plugins-official": false,
     "last30days@last30days-skill": true,
@@ -61,12 +60,6 @@
       "source": {
         "source": "github",
         "repo": "addyosmani/agent-skills"
-      }
-    },
-    "caveman": {
-      "source": {
-        "source": "github",
-        "repo": "JuliusBrussee/caveman"
       }
     },
     "compound-engineering-plugin": {

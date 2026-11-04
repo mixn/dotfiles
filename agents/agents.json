@@ -11,15 +11,6 @@
       ]
     },
     {
-      "name": "caveman",
-      "manager": "claude-marketplace",
-      "source": "github:JuliusBrussee/caveman",
-      "marketplace": "caveman",
-      "tools": [
-        "claude"
-      ]
-    },
-    {
       "name": "compound-engineering",
       "manager": "claude-marketplace",
       "source": "github:EveryInc/compound-engineering-plugin",
